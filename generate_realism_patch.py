@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-EFT 现实主义MOD兼容补丁生成器 v2.7
+EFT 现实主义MOD兼容补丁生成器 v2.8
 用于根据input文件夹中的物品数据，使用模板生成Realism MOD兼容配置文件
 
 版本历史:
+- v2.8 (2026-03-08):
+    - 新增 weapon_rule_ranges.py，武器规则范围（WEAPON_PROFILE_RANGES）独立维护；
+    - 主脚本改为导入武器规则配置，与附件规则配置文件化方式一致。
 - v2.7 (2026-03-08):
     - 导出策略调整为仅按源文件输出，不再生成按类型聚合与总合并补丁；
     - 按源文件导出时保留 `input` 目录结构到 `output`；
@@ -48,6 +51,8 @@ import shutil
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 import copy
+from weapon_rule_ranges import WEAPON_PROFILE_RANGES
+from attachment_rule_ranges import MOD_PROFILE_RANGES
 
 # 定义parentId到模板文件的映射 (基于 itemBaseClasses.md 完整映射)
 PARENT_ID_TO_TEMPLATE = {
@@ -571,243 +576,8 @@ WEAPON_PARENT_GROUPS = {
     },
 }
 
-# 武器规则范围（来自“武器属性规则指南”）
-WEAPON_PROFILE_RANGES = {
-    "assault": {
-        "VerticalRecoil": (80, 95),
-        "HorizontalRecoil": (160, 200),
-        "Convergence": (2, 25),
-        "Dispersion": (4, 8),
-        "VisualMulti": (1.1, 1.3),
-        "Ergonomics": (80, 90),
-        "RecoilIntensity": (0.15, 0.25),
-    },
-    "pistol": {
-        "VerticalRecoil": (450, 650),
-        "HorizontalRecoil": (400, 600),
-        "Convergence": (14, 18),
-        "Dispersion": (10, 18),
-        "VisualMulti": (2.3, 2.8),
-        "BaseTorque": (-2.0, -1.0),
-    },
-    "smg": {
-        "VerticalRecoil": (30, 55),
-        "HorizontalRecoil": (80, 140),
-        "Convergence": (16, 22),
-        "Dispersion": (6, 12),
-        "VisualMulti": (0.9, 1.2),
-        "RecoilIntensity": (0.1, 0.18),
-    },
-    "sniper": {
-        "VerticalRecoil": (130, 250),
-        "HorizontalRecoil": (180, 350),
-        "Convergence": (8, 13),
-        "Dispersion": (0.5, 3.0),
-        "VisualMulti": (1.2, 2.0),
-    },
-    "shotgun": {
-        "VerticalRecoil": (300, 500),
-        "HorizontalRecoil": (300, 550),
-        "Dispersion": (15, 30),
-        "VisualMulti": (2.0, 2.5),
-        "RecoilIntensity": (0.4, 0.6),
-        "ShotgunDispersion": (1, 1),
-    },
-}
-
-# 附件规则范围（来自“附件属性规则指南”，仅在字段存在时夹紧）
-MOD_PROFILE_RANGES = {
-    "muzzle_suppressor": {
-        "Ergonomics": (-18, -8),
-        "CameraRecoil": (-8, -3),
-        "VerticalRecoil": (-15, -8),
-        "HorizontalRecoil": (-10, -5),
-        "Dispersion": (-5, -1),
-        "Accuracy": (-5, -1),
-        "Velocity": (0.2, 1.0),
-        "Loudness": (-40, -20),
-        "Flash": (-80, -30),
-        "ModMalfunctionChance": (10, 25),
-        "DurabilityBurnModificator": (1.2, 1.5),
-        "AimSpeed": (-20, -8),
-    },
-    "muzzle_flashhider": {
-        "Ergonomics": (-5, -2),
-        "CameraRecoil": (-2, -1),
-        "VerticalRecoil": (-5, -2),
-        "HorizontalRecoil": (-3, -1),
-        "Dispersion": (-2, 2),
-        "Loudness": (0, 10),
-        "Flash": (-70, -40),
-        "AimSpeed": (-3, -1),
-    },
-    "muzzle_brake": {
-        "Ergonomics": (-8, -3),
-        "CameraRecoil": (-10, -3),
-        "VerticalRecoil": (-20, -12),
-        "HorizontalRecoil": (-15, -8),
-        "Dispersion": (-5, -2),
-        "Accuracy": (-2, -1),
-        "Velocity": (0.5, 1.0),
-        "Loudness": (10, 20),
-        "Flash": (3, 15),
-        "AimSpeed": (-6, -2),
-    },
-    "muzzle_thread": {
-        "Ergonomics": (0, 1),
-        "CameraRecoil": (0, 0),
-        "VerticalRecoil": (0, 0),
-        "HorizontalRecoil": (0, 0),
-        "Dispersion": (0, 0),
-        "Accuracy": (0, 0),
-        "Velocity": (0, 0),
-        "Loudness": (0, 0),
-        "Flash": (0, 0),
-        "ModMalfunctionChance": (0, 0),
-        "DurabilityBurnModificator": (1.0, 1.0),
-        "AimSpeed": (0, 0),
-    },
-    "magazine": {
-        "Ergonomics": (-25, -1),
-        "ReloadSpeed": (-25, 5),
-        "LoadUnloadModifier": (5, 15),
-        "CheckTimeModifier": (1, 5),
-        "MalfunctionChance": (-2, 5),
-        "AimSpeed": (-8, -1),
-        "Handling": (-8, -1),
-    },
-    "gasblock": {
-        "Ergonomics": (-2, 0),
-        "VerticalRecoil": (-2, 0),
-        "HorizontalRecoil": (-1, 0),
-        "ModMalfunctionChance": (-2, 5),
-        "DurabilityBurnModificator": (0.95, 1.05),
-        "HeatFactor": (0.98, 1.02),
-        "CoolFactor": (0.98, 1.02),
-    },
-    "scope_magnified": {
-        "AimSpeed": (-15, -5),
-        "AimStability": (5, 20),
-        "Ergonomics": (-12, -5),
-        "Handling": (-10, -3),
-    },
-    "scope_red_dot": {
-        "AimSpeed": (2, 8),
-        "AimStability": (0, 5),
-        "Ergonomics": (-3, 0),
-    },
-    "iron_sight": {
-        "AimSpeed": (2, 10),
-        "Ergonomics": (0, 2),
-    },
-    "stock": {
-        "VerticalRecoil": (-15, -5),
-        "HorizontalRecoil": (-10, -2),
-        "CameraRecoil": (-20, -5),
-        "Convergence": (5, 20),
-        "AimSpeed": (-12, -2),
-        "AimStability": (5, 15),
-        "Handling": (-10, -2),
-        "Ergonomics": (-15, -2),
-    },
-    "pistol_grip": {
-        "Ergonomics": (2, 15),
-        "AimSpeed": (1, 5),
-        "AimStability": (1, 5),
-        "Handling": (2, 8),
-        "VerticalRecoil": (-5, -1),
-    },
-    "foregrip": {
-        "VerticalRecoil": (-7, -2),
-        "HorizontalRecoil": (-4, -1),
-        "CameraRecoil": (-6, -1),
-        "Convergence": (0, 5),
-        "AimSpeed": (-2, 6),
-        "AimStability": (5, 12),
-        "Handling": (8, 18),
-        "Ergonomics": (-2, 6),
-    },
-    "receiver": {
-        "AutoROF": (0, 2),
-        "SemiROF": (0, 5),
-        "ModMalfunctionChance": (-5, 5),
-        "Accuracy": (-5, 5),
-        "HeatFactor": (0.95, 1.05),
-        "CoolFactor": (0.95, 1.05),
-        "Ergonomics": (-2, 5),
-        "Convergence": (0, 10),
-    },
-    "mount": {
-        "Ergonomics": (-1, 1),
-    },
-    "flashlight_laser": {
-        "Ergonomics": (-3, -1),
-        "Handling": (-8, -2),
-    },
-    "barrel_short": {
-        "CenterOfImpact": (0.05, 0.15),
-        "Velocity": (-15, -5),
-        "Accuracy": (-20, -5),
-        "HeatFactor": (1.1, 1.3),
-        "CoolFactor": (1.05, 1.2),
-        "Convergence": (10, 25),
-        "DurabilityBurnModificator": (1.1, 1.3),
-        "RecoilAngle": (5, 15),
-    },
-    "barrel_medium": {
-        "CenterOfImpact": (0.02, 0.05),
-        "Velocity": (-2, 5),
-        "Accuracy": (-2, 5),
-        "HeatFactor": (0.95, 1.05),
-        "CoolFactor": (0.95, 1.05),
-        "Convergence": (0, 10),
-        "DurabilityBurnModificator": (0.95, 1.05),
-        "RecoilAngle": (-5, 5),
-    },
-    "barrel_long": {
-        "CenterOfImpact": (0.005, 0.02),
-        "Velocity": (10, 25),
-        "Accuracy": (10, 25),
-        "HeatFactor": (0.8, 0.95),
-        "CoolFactor": (0.8, 0.95),
-        "Convergence": (-15, -5),
-        "DurabilityBurnModificator": (0.7, 0.9),
-        "RecoilAngle": (-15, -5),
-    },
-    "handguard_short": {
-        "VerticalRecoil": (-3, -1),
-        "HorizontalRecoil": (-2, -1),
-        "HeatFactor": (1.05, 1.1),
-        "CoolFactor": (1.05, 1.15),
-        "AimStability": (1, 5),
-        "AimSpeed": (2, 8),
-        "Handling": (5, 12),
-        "Ergonomics": (2, 10),
-        "DurabilityBurnModificator": (1.0, 1.0),
-    },
-    "handguard_medium": {
-        "VerticalRecoil": (-8, -3),
-        "HorizontalRecoil": (-5, -2),
-        "HeatFactor": (0.95, 1.05),
-        "CoolFactor": (0.95, 1.05),
-        "AimStability": (5, 10),
-        "AimSpeed": (0, 5),
-        "Handling": (2, 8),
-        "Ergonomics": (0, 5),
-        "DurabilityBurnModificator": (1.0, 1.0),
-    },
-    "handguard_long": {
-        "VerticalRecoil": (-15, -8),
-        "HorizontalRecoil": (-10, -5),
-        "HeatFactor": (0.85, 0.95),
-        "CoolFactor": (0.85, 0.95),
-        "AimStability": (10, 20),
-        "AimSpeed": (-8, -2),
-        "Handling": (-8, -2),
-        "Ergonomics": (-5, -2),
-        "DurabilityBurnModificator": (0.9, 1.0),
-    },
-}
+# 武器规则范围已拆分到 weapon_rule_ranges.py，便于独立维护与调参。
+# 附件规则范围已拆分到 attachment_rule_ranges.py，便于独立维护与调参。
 
 
 class RealismPatchGenerator:
@@ -2112,7 +1882,7 @@ class RealismPatchGenerator:
 def main():
     """主函数"""
     print("=" * 60)
-    print("EFT 现实主义MOD兼容补丁生成器 v2.7")
+    print("EFT 现实主义MOD兼容补丁生成器 v2.8")
     print("=" * 60)
     
     # 获取脚本所在目录

@@ -945,15 +945,14 @@
         "ItemID": "672e2e75d89015cd6322030b",
         "Name": "672e2e75d89015cd6322030b",
         "AllowADS": true,
-        "LoyaltyLevel": 5,
-        "ArmorClass": "NIJ IIIA",
+        "LoyaltyLevel": 2,
+        "ArmorClass": "PM 2",
         "CanSpall": false,
         "SpallReduction": 1,
         "ReloadSpeedMulti": 1,
-        "Comfort": 1.07,
-        "MaskToUse": "ronin",
+        "Comfort": 1.035,
         "TemplateType": "gear",
-        "Price": 34000
+        "Price": 13000
     },
     "672e2e753c97527a5186e73f": {
         "$type": "RealismMod.Gear, RealismMod",
