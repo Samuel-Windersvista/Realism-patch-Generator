@@ -82,7 +82,7 @@
         "DurabilityBurnRatio": 1,
         "AutoROF": 30,
         "SemiROF": 270,
-        "LoyaltyLevel": 5,
+        "LoyaltyLevel": 4,
         "BaseReloadSpeedMulti": 1,
         "BaseChamberSpeedMulti": 1,
         "MinChamberSpeed": 0.7,
@@ -129,7 +129,7 @@
         "DurabilityBurnRatio": 1.15,
         "AutoROF": 30,
         "SemiROF": 450,
-        "LoyaltyLevel": 5,
+        "LoyaltyLevel": 4,
         "BaseReloadSpeedMulti": 1,
         "BaseChamberSpeedMulti": 1,
         "MinChamberSpeed": 0.7,
@@ -172,7 +172,7 @@
         "Weight": 2.92,
         "AutoROF": 30,
         "SemiROF": 450,
-        "loyaltyLevel": 5,
+        "LoyaltyLevel": 4,
         "BaseReloadSpeedMulti": 1,
         "BaseChamberSpeedMulti": 1,
         "MinChamberSpeed": 0.7,
@@ -181,8 +181,7 @@
         "BaseChamberCheckSpeed": 1,
         "BaseFixSpeed": 1,
         "OffsetRotation": 0.015,
-        "RecoilIntensity": 0.345,
-        "LoyaltyLevel": 1
+        "RecoilIntensity": 0.345
     },
     "639c3fbbd0446708ee622ee9": {
         "$type": "RealismMod.Gun, RealismMod",
@@ -219,7 +218,7 @@
         "Weight": 2.92,
         "AutoROF": 30,
         "SemiROF": 450,
-        "loyaltyLevel": 5,
+        "LoyaltyLevel": 4,
         "BaseReloadSpeedMulti": 1,
         "BaseChamberSpeedMulti": 1,
         "MinChamberSpeed": 0.7,
@@ -229,7 +228,6 @@
         "BaseFixSpeed": 1,
         "OffsetRotation": 0.015,
         "RecoilIntensity": 0.345,
-        "ShotgunDispersion": 1,
-        "LoyaltyLevel": 1
+        "ShotgunDispersion": 1
     }
 }

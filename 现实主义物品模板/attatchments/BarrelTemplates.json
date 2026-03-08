@@ -74,7 +74,7 @@
         "Weight": 0.464,
         "ShotgunDispersion": 1,
         "Loudness": 30,
-        "LoyaltyLevel": 5,
+        "LoyaltyLevel": 4,
         "Flash": 30
     },
     "669fa47da0bab4e8510d9526": {
@@ -2937,7 +2937,7 @@
         "ShotgunDispersion": 1,
         "Loudness": 0,
         "MalfChance": 0,
-        "LoyaltyLevel": 5
+        "LoyaltyLevel": 4
     },
     "673cb551093e0ea7fd0b874a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
