@@ -5,7 +5,7 @@
         "Name": "tactical_all_bemeyers_mawl_c1_plus",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.286,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -18,7 +18,7 @@
         "Name": "flashlight_armytek_predator_pro_v3_xhp35_hi",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.181,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -31,7 +31,7 @@
         "Name": "flashlight_ultrafire_WF-501B",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -2,
+        "Ergonomics": -1,
         "Weight": 0.112,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -44,7 +44,7 @@
         "Name": "tactical_all_glock_gl_21_vis_lam",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Weight": 0.124,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -57,7 +57,7 @@
         "Name": "tactical_all_holosun_ls321",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.244,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -70,7 +70,7 @@
         "Name": "tactical_all_insight_anpeq15",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.23,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -83,7 +83,7 @@
         "Name": "tactical_all_insight_anpeq2",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.258,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -101,7 +101,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -3
+        "Handling": -4
     },
     "626becf9582c3e319310b837": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -109,7 +109,7 @@
         "Name": "tactical_all_insight_wmx200",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.2,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -135,12 +135,12 @@
         "Name": "tactical_all_olight_baldr_pro",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Weight": 0.129,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "Handling": -3
+        "Handling": -2
     },
     "6272379924e29f06af4d5ecb": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -161,7 +161,7 @@
         "Name": "tactical_all_steiner_9021_dbal_pl",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.153,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -187,12 +187,12 @@
         "Name": "tactical_all_surefire_x400_vis_laser",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.139,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "Handling": -3
+        "Handling": -2
     },
     "5a7b483fe899ef0016170d15": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -200,7 +200,7 @@
         "Name": "tactical_all_surefire_xc1",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.045,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -218,7 +218,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -3
+        "Handling": -2
     },
     "5a5f1ce64f39f90b401987bc": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -226,12 +226,12 @@
         "Name": "tactical_all_zenit_2irs_kleh_lam",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.164,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -2
+        "Handling": -3
     },
     "560d657b4bdc2da74d8b4572": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -244,7 +244,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -4
+        "Handling": -3
     },
     "5b3a337e5acfc4704b4a19a0": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -257,7 +257,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 1,
-        "Handling": -2
+        "Handling": -4
     },
     "5c5952732e2216398b5abda2": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -283,7 +283,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -2
     },
     "646f62fee779812413011ab7": {
         "$type": "RealismMod.WeaponMod, RealismMod",

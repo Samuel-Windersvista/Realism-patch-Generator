@@ -13,9 +13,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bd7b4d8ce7029b6409b4a3": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -31,8 +29,6 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     }
 }

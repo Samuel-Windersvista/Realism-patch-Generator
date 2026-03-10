@@ -15,14 +15,30 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace3e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace3e",
         "Name": "太阳战士徽章",
+        "ModType": "",
+        "Ergonomics": -1,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
+    },
+    "66bf757f27d0b097db0ace3f": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "66bf757f27d0b097db0ace3f",
+        "Name": "'Oi Matey' Patch",
         "ModType": "",
         "Ergonomics": 1,
         "Accuracy": 0,
@@ -35,29 +51,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "66bf757f27d0b097db0ace3f": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "66bf757f27d0b097db0ace3f",
-        "Name": "'Oi Matey' Patch",
-        "ModType": "",
-        "Ergonomics": 0,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace40": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -75,14 +69,30 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace41": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace41",
         "Name": "USEC Patch",
+        "ModType": "",
+        "Ergonomics": 1,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
+    },
+    "66bf757f27d0b097db0ace42": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "66bf757f27d0b097db0ace42",
+        "Name": "BEAR Patch",
         "ModType": "",
         "Ergonomics": -1,
         "Accuracy": 0,
@@ -95,14 +105,12 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
-    "66bf757f27d0b097db0ace42": {
+    "66bf757f27d0b097db0ace43": {
         "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "66bf757f27d0b097db0ace42",
-        "Name": "BEAR Patch",
+        "ItemID": "66bf757f27d0b097db0ace43",
+        "Name": "Alabama Patch",
         "ModType": "",
         "Ergonomics": 0,
         "Accuracy": 0,
@@ -115,29 +123,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "66bf757f27d0b097db0ace43": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "66bf757f27d0b097db0ace43",
-        "Name": "Alabama Patch",
-        "ModType": "",
-        "Ergonomics": -1,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace47": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -155,16 +141,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "6752641b1470fc33b675d59a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "6752641b1470fc33b675d59a",
         "Name": "Sweden Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -175,9 +159,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676a24b5c3a24ed47d79720c": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -195,9 +177,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676a34d23980119d8d5461c0": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -215,9 +195,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676ab7e323e05eb20de89163": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -235,9 +213,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676ab93db29a95d6fb6fbf19": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -255,9 +231,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676ad644ed32115c8b46342d": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -275,16 +249,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676ad83f4488c50df0ebb8ff": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "676ad83f4488c50df0ebb8ff",
         "Name": "Germany Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -295,16 +267,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676a31defb84836a874777a6": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "676a31defb84836a874777a6",
         "Name": "Rangers Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -315,9 +285,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace50": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -335,9 +303,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace51": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -355,16 +321,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace52": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace52",
         "Name": "Australia Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -375,16 +339,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace53": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace53",
         "Name": "Canada Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -395,16 +357,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace54": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace54",
         "Name": "Poland Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -415,9 +375,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace4d": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -435,54 +393,12 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace55": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "66bf757f27d0b097db0ace55",
         "Name": "Patch",
-        "ModType": "",
-        "Ergonomics": 1,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "66bf757f27d0b097db0ace56": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "66bf757f27d0b097db0ace56",
-        "Name": "Patch",
-        "ModType": "",
-        "Ergonomics": 1,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "66bf757f27d0b097db0ace57": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "66bf757f27d0b097db0ace57",
-        "Name": "Brotherhood Patch",
         "ModType": "",
         "Ergonomics": 0,
         "Accuracy": 0,
@@ -495,9 +411,43 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
+    },
+    "66bf757f27d0b097db0ace56": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "66bf757f27d0b097db0ace56",
+        "Name": "Patch",
+        "ModType": "",
+        "Ergonomics": 0,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
+    },
+    "66bf757f27d0b097db0ace57": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "66bf757f27d0b097db0ace57",
+        "Name": "Brotherhood Patch",
+        "ModType": "",
+        "Ergonomics": 1,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace64": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -515,9 +465,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "66bf757f27d0b097db0ace65": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -535,16 +483,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "676ac6e0769e44deb14a028a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "676ac6e0769e44deb14a028a",
         "Name": "Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -555,16 +501,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f48eaa2e633be4b4348c4": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "674f48eaa2e633be4b4348c4",
         "Name": "夜视仪电池包",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -575,9 +519,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f6a7a3b1cb546b93ebdee": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -595,9 +537,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f6b1747bec257e33712b4": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -615,9 +555,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f6e0ccc2f0292beb75c54": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -635,54 +573,12 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "6771bb1b8df8c956d414842c": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "6771bb1b8df8c956d414842c",
         "Name": "Ferro Concepts 电池包（土狼色）",
-        "ModType": "",
-        "Ergonomics": 0,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "6771bd1c7cac7844d18b8aaa": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "6771bd1c7cac7844d18b8aaa",
-        "Name": "Ferro Concepts Battery Pack (Ranger Green)",
-        "ModType": "",
-        "Ergonomics": 0,
-        "Accuracy": 0,
-        "ConflictingItems": [
-            "5a16b7e1fcdbcb00165aa6c9"
-        ],
-        "Weight": 0.02,
-        "LoyaltyLevel": 1,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": 0,
-        "Dispersion": 0,
-        "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
-    },
-    "6771bdde30136eb8171a4b36": {
-        "$type": "RealismMod.WeaponMod, RealismMod",
-        "ItemID": "6771bdde30136eb8171a4b36",
-        "Name": "Ferro Concepts Battery Pack (Black)",
         "ModType": "",
         "Ergonomics": 1,
         "Accuracy": 0,
@@ -695,9 +591,43 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
+    },
+    "6771bd1c7cac7844d18b8aaa": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "6771bd1c7cac7844d18b8aaa",
+        "Name": "Ferro Concepts Battery Pack (Ranger Green)",
+        "ModType": "",
+        "Ergonomics": 1,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
+    },
+    "6771bdde30136eb8171a4b36": {
+        "$type": "RealismMod.WeaponMod, RealismMod",
+        "ItemID": "6771bdde30136eb8171a4b36",
+        "Name": "Ferro Concepts Battery Pack (Black)",
+        "ModType": "",
+        "Ergonomics": -1,
+        "Accuracy": 0,
+        "ConflictingItems": [
+            "5a16b7e1fcdbcb00165aa6c9"
+        ],
+        "Weight": 0.02,
+        "LoyaltyLevel": 1,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": 0,
+        "Dispersion": 0,
+        "AimStability": 0,
+        "Handling": 0
     },
     "67741256f0101c0e0ff4eada": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -715,16 +645,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674e0b363c4bc8bb29fe0984": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "674e0b363c4bc8bb29fe0984",
         "Name": "Helmet Cover Black",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -735,9 +663,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f592b98bc2083d3006264": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -755,9 +681,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f5c75a98cdbbe850e0fab": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -775,9 +699,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f681bda9a0c381171ea25": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -795,9 +717,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "674f690a7abfbaac80fa2587": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -815,8 +735,6 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     }
 }

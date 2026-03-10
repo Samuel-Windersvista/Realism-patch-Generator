@@ -4,17 +4,17 @@
         "ItemID": "6621b0dcbcfe66cdbbab48c7",
         "Name": "定制版 Deadskul 携行 pouch",
         "AllowADS": true,
-        "LoyaltyLevel": 2,
-        "ArmorClass": "GOST 2",
+        "LoyaltyLevel": 5,
+        "ArmorClass": "XSAPI",
         "CanSpall": false,
         "SpallReduction": 1,
         "ReloadSpeedMulti": 1,
-        "Comfort": 1.07,
-        "speedPenaltyPercent": -3,
+        "Comfort": 1.05,
+        "speedPenaltyPercent": -5.5,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -3,
+        "weaponErgonomicPenalty": -3.5,
         "TemplateType": "gear",
-        "Price": 16000,
+        "Price": 22000,
         "Weight": 0
     }
 }

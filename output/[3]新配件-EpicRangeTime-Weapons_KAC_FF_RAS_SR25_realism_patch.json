@@ -7,11 +7,11 @@
         "VerticalRecoil": -5,
         "HorizontalRecoil": -3,
         "Dispersion": -1,
-        "AimSpeed": 1,
-        "Ergonomics": 2,
+        "AimSpeed": 2,
+        "Ergonomics": 3,
         "Accuracy": 10,
-        "HeatFactor": 1.01,
-        "CoolFactor": 0.99,
+        "HeatFactor": 0.98,
+        "CoolFactor": 0.93,
         "ConflictingItems": [
             "807cce3153fd6d07fa931fa1",
             "60658776f2cb2e02a42ace2b",
@@ -23,8 +23,8 @@
         ],
         "Weight": 0.487,
         "LoyaltyLevel": 2,
-        "Handling": 4.37,
-        "AimStability": 6,
+        "Handling": 4.76,
+        "AimStability": 9,
         "DurabilityBurnModificator": 1.0
     }
 }

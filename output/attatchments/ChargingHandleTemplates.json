@@ -112,13 +112,13 @@
         "ReloadSpeed": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.064,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "ChamberSpeed": 22,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -4
     },
     "5ea16d4d5aad6446a939753d": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -135,11 +135,11 @@
         "CameraRecoil": 0,
         "ChamberSpeed": 33,
         "LoyaltyLevel": 4,
-        "Flash": 0,
-        "ModMalfunctionChance": 2,
-        "DurabilityBurnModificator": 0.96,
-        "HeatFactor": 1.0,
-        "CoolFactor": 0.99
+        "Flash": 2,
+        "ModMalfunctionChance": 3,
+        "DurabilityBurnModificator": 1.0,
+        "HeatFactor": 1.01,
+        "CoolFactor": 1.01
     },
     "5bb20dbcd4351e44f824c04e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -217,10 +217,10 @@
         "HorizontalRecoil": 0,
         "ChamberSpeed": 32.5,
         "LoyaltyLevel": 4,
-        "Flash": 0,
+        "Flash": 2,
         "ModMalfunctionChance": 3,
-        "DurabilityBurnModificator": 0.99,
-        "HeatFactor": 1.02,
+        "DurabilityBurnModificator": 1.0,
+        "HeatFactor": 1.01,
         "CoolFactor": 1.0
     },
     "62811d61578c54356d6d67ea": {
@@ -293,15 +293,15 @@
         "FixSpeed": 0,
         "Ergonomics": 1,
         "Weight": 0.035,
-        "VerticalRecoil": -1,
-        "HorizontalRecoil": 0,
+        "VerticalRecoil": 0,
+        "HorizontalRecoil": -1,
         "ChamberSpeed": 23,
         "LoyaltyLevel": 2,
-        "Flash": 1,
-        "ModMalfunctionChance": 1,
-        "DurabilityBurnModificator": 0.99,
+        "Flash": 2,
+        "ModMalfunctionChance": 0,
+        "DurabilityBurnModificator": 0.98,
         "HeatFactor": 1.01,
-        "CoolFactor": 1.02
+        "CoolFactor": 1.0
     },
     "6181688c6c780c1e710c9b04": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -386,18 +386,18 @@
         "ReloadSpeed": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
-        "Ergonomics": 1,
+        "Ergonomics": 2,
         "Weight": 0.03,
-        "VerticalRecoil": -1,
+        "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "CameraRecoil": 0,
         "ChamberSpeed": 35,
         "LoyaltyLevel": 4,
-        "Flash": 0,
-        "ModMalfunctionChance": 0,
-        "DurabilityBurnModificator": 0.96,
-        "HeatFactor": 1.01,
-        "CoolFactor": 1.0
+        "Flash": -3,
+        "ModMalfunctionChance": 1,
+        "DurabilityBurnModificator": 1.02,
+        "HeatFactor": 1.0,
+        "CoolFactor": 0.99
     },
     "6761492dc53ebe8c0f0a5efe": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -508,14 +508,14 @@
         "Ergonomics": 0,
         "Weight": 0.043,
         "ChamberSpeed": 36,
-        "Flash": 0,
+        "Flash": -1,
         "LoyaltyLevel": 4,
         "VerticalRecoil": -1,
         "HorizontalRecoil": 0,
-        "ModMalfunctionChance": 4,
-        "DurabilityBurnModificator": 0.98,
-        "HeatFactor": 1.0,
-        "CoolFactor": 1.01
+        "ModMalfunctionChance": 1,
+        "DurabilityBurnModificator": 0.99,
+        "HeatFactor": 1.01,
+        "CoolFactor": 1.0
     },
     "6529109524cbe3c74a05e5b7": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -529,12 +529,12 @@
         "ChamberSpeed": 30,
         "Flash": -2,
         "LoyaltyLevel": 2,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": -1,
-        "ModMalfunctionChance": 0,
-        "DurabilityBurnModificator": 0.99,
-        "HeatFactor": 0.99,
-        "CoolFactor": 1.0
+        "VerticalRecoil": -1,
+        "HorizontalRecoil": 0,
+        "ModMalfunctionChance": -1,
+        "DurabilityBurnModificator": 1.02,
+        "HeatFactor": 1.0,
+        "CoolFactor": 1.01
     },
     "673cb4054ff4aa8f86076f4a": {
         "$type": "RealismMod.WeaponMod, RealismMod",

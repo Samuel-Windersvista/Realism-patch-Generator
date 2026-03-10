@@ -20,19 +20,19 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": -0.58,
+        "Ergonomics": -1.35,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 1
+        "AimStability": 3
     },
     "7ca248803b89788492384ba2": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "7ca248803b89788492384ba2",
         "Name": "Eotech EXPS3 /w G33",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 4,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -48,12 +48,12 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 0.63,
+        "Ergonomics": 0.94,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 1
+        "AimStability": 2
     },
     "8d9e9ff3020f92eb5fc46680": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -76,7 +76,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": -0.09,
+        "Ergonomics": -0.71,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -104,12 +104,12 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 1.75,
+        "Ergonomics": 0.22,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 2
+        "AimStability": 1
     },
     "a5c171496c1870f205a3c972": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -132,19 +132,19 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 0.05,
+        "Ergonomics": 0.4,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 0
+        "AimStability": 2
     },
     "22345a1c542354f86796efda": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "22345a1c542354f86796efda",
         "Name": "Vortex UH-1 /w G33",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 4,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -160,19 +160,19 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 1.21,
+        "Ergonomics": -1.58,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 0
+        "AimStability": 2
     },
     "81fb194d053a4ccedce3782d": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "81fb194d053a4ccedce3782d",
         "Name": "SIG Sauer ROMEO8T /w Unity FTC (Black)",
         "ModType": "sight",
-        "AimSpeed": 5,
+        "AimSpeed": 2,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -188,19 +188,19 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 1.36,
+        "Ergonomics": 0.69,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 1
+        "AimStability": 0
     },
     "0377e32842c4024a423c472e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "0377e32842c4024a423c472e",
         "Name": "SIG Sauer ROMEO8T /w G33",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 4,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -216,12 +216,12 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 0.32,
+        "Ergonomics": 1.32,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 3
+        "AimStability": 1
     },
     "08940f5c853aa6acf4049bc2": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -244,11 +244,11 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": -0.05,
+        "Ergonomics": -1.43,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 1
+        "AimStability": 2
     }
 }

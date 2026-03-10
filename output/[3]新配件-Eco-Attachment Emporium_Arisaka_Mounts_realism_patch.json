@@ -4,7 +4,7 @@
         "ItemID": "68bb6be346d4437fb40002e0",
         "Name": "Arisaka offset optic mount",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [],
         "Weight": 0.04,
@@ -13,9 +13,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bb6e3f46d4437fb40002e1": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -31,9 +29,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bc3cd17208c642f409974e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -49,9 +45,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bc3cd17208c642f409974f": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -67,9 +61,7 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bc3cd17208c642f4099750": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -85,16 +77,14 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     },
     "68bc3cd17208c642f4099751": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "68bc3cd17208c642f4099751",
         "Name": "B&T Acro Mount for Arisaka offset mount",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5ae30bad5acfc400185c2dc4"
@@ -105,8 +95,6 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     }
 }

@@ -9,7 +9,7 @@ MOD_PROFILE_RANGES = {
     "muzzle_suppressor": {
         "Ergonomics": (-15, -8),
         "CameraRecoil": (-8, -3),
-        "VerticalRecoil": (-18, -10),
+        "VerticalRecoil": (-15, -8),
         "HorizontalRecoil": (-12, -6),
         "Dispersion": (-5, -1),
         "Accuracy": (-5, 5),
@@ -32,8 +32,8 @@ MOD_PROFILE_RANGES = {
     },
     "muzzle_brake": {
         "Ergonomics": (-6, -3),
-        "CameraRecoil": (-10, -3),
-        "VerticalRecoil": (-24, -14),
+        "CameraRecoil": (-9, -3),
+        "VerticalRecoil": (-20, -12),
         "HorizontalRecoil": (-18, -10),
         "Dispersion": (-5, -2),
         "Accuracy": (-2, -1),
@@ -43,7 +43,7 @@ MOD_PROFILE_RANGES = {
         "AimSpeed": (-2, 3),
     },
     "muzzle_thread": {
-        "Ergonomics": (0, 1),
+        "Ergonomics": (-1, 1),
         "CameraRecoil": (0, 0),
         "VerticalRecoil": (0, 0),
         "HorizontalRecoil": (0, 0),
@@ -124,16 +124,16 @@ MOD_PROFILE_RANGES = {
         "Flash": (-3, 3),
     },
     "scope_magnified": {
-        "AimSpeed": (-10, -5),
+        "AimSpeed": (-8, -4),
         "Accuracy": (3, 8),
         "AimStability": (5, 10),
-        "Ergonomics": (-10, -5),
-        "Handling": (-10, -5),
+        "Ergonomics": (-8, -5),
+        "Handling": (-7, -2),
     },
     "scope_red_dot": {
         "AimSpeed": (2, 5),
-        "AimStability": (0, 5),
-        "Ergonomics": (-1, 3),
+        "AimStability": (0, 3),
+        "Ergonomics": (-2, 2),
     },
     "iron_sight": {
         "AimSpeed": (0, 3),
@@ -144,7 +144,7 @@ MOD_PROFILE_RANGES = {
     # stock_folding     折叠/伸缩/紧凑枪托
     # stock_ads_support 高基座或特殊设计（允许开镜）
     "stock_fixed": {
-        "VerticalRecoil": (-15, -10),
+        "VerticalRecoil": (-13, -8),
         "HorizontalRecoil": (-10, -6),
         "CameraRecoil": (-20, -12),
         "Convergence": (12, 20),
@@ -196,8 +196,8 @@ MOD_PROFILE_RANGES = {
     },
     # 缓冲管（buffer_adapter）
     "buffer_adapter": {
-        "VerticalRecoil": (0, 5),
-        "HorizontalRecoil": (0, 3),
+        "VerticalRecoil": (-2, 3),
+        "HorizontalRecoil": (-1, 3),
         "Ergonomics": (-1, 5),
     },
     # 枪托适配器（stock_adapter）
@@ -221,15 +221,15 @@ MOD_PROFILE_RANGES = {
         "Handling": (2, 8),
     },
     "foregrip": {
-        "VerticalRecoil": (-9, -3),
-        "HorizontalRecoil": (-6, -2),
+        "VerticalRecoil": (-8, -3),
+        "HorizontalRecoil": (-5, -2),
         "CameraRecoil": (-7, -1),
         "Dispersion": (0, 0),
         "Convergence": (-5, 2),
         "AimSpeed": (3, 10),
         "AimStability": (5, 12),
         "Handling": (8, 18),
-        "Ergonomics": (5, 16),
+        "Ergonomics": (6, 16),
     },
     "receiver": {
         "AutoROF": (0, 2),
@@ -249,8 +249,6 @@ MOD_PROFILE_RANGES = {
         "AimStability": (0, 0),
         "Handling": (0, 0),
         "Accuracy": (0, 0),
-        "HeatFactor": (0, 0),
-        "CoolFactor": (0, 0),
     },
     "flashlight_laser": {
         "Ergonomics": (-2, 0),
@@ -296,7 +294,7 @@ MOD_PROFILE_RANGES = {
         "RecoilAngle": (-15, -5),
     },
     "handguard_short": {
-        "VerticalRecoil": (-4, -1),
+        "VerticalRecoil": (-3, -1),
         "HorizontalRecoil": (-2, -1),
         "HeatFactor": (1.05, 1.1),
         "CoolFactor": (0.8, 0.95),
@@ -307,7 +305,7 @@ MOD_PROFILE_RANGES = {
         "DurabilityBurnModificator": (1.0, 1.0),
     },
     "handguard_medium": {
-        "VerticalRecoil": (-8, -4),
+        "VerticalRecoil": (-7, -4),
         "HorizontalRecoil": (-6, -2),
         "HeatFactor": (0.95, 1.05),
         "CoolFactor": (0.90, 1.0),
@@ -318,8 +316,8 @@ MOD_PROFILE_RANGES = {
         "DurabilityBurnModificator": (1.0, 1.0),
     },
     "handguard_long": {
-        "VerticalRecoil": (-12, -6),
-        "HorizontalRecoil": (-8, -3),
+        "VerticalRecoil": (-10, -6),
+        "HorizontalRecoil": (-7, -3),
         "HeatFactor": (0.88, 0.95),
         "CoolFactor": (0.85, 1.05),
         "AimStability": (10, 20),

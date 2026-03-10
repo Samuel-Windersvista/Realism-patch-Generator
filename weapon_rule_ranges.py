@@ -12,7 +12,7 @@ WEAPON_PROFILE_RANGES = {
         "Convergence": (2, 25),
         "Dispersion": (4, 8),
         "VisualMulti": (1.05, 1.25),
-        "Ergonomics": (90, 99),
+        "Ergonomics": (85, 95),
         "RecoilIntensity": (0.12, 0.22),
     },
     "pistol": {
@@ -39,7 +39,7 @@ WEAPON_PROFILE_RANGES = {
         "Convergence": (8, 13),
         "Dispersion": (0.5, 3.0),
         "VisualMulti": (1.1, 1.8),
-        "Ergonomics": (62, 79),
+        "Ergonomics": (68, 83),
     },
     "shotgun": {
         "VerticalRecoil": (240, 420),

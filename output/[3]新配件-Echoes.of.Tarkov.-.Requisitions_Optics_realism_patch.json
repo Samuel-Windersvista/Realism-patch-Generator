@@ -7,7 +7,7 @@
         "AimSpeed": 5,
         "Accuracy": 0,
         "ConflictingItems": [],
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Weight": 0.046,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -19,7 +19,7 @@
         "ItemID": "684ca7a7dd567362e6a2d719",
         "Name": "Trijicon SRO reflex sight (FDE)",
         "ModType": "sight",
-        "AimSpeed": 5,
+        "AimSpeed": 4,
         "Accuracy": 0,
         "ConflictingItems": [],
         "Ergonomics": 1,
@@ -34,10 +34,10 @@
         "ItemID": "684ef6bc3fcbe11882807386",
         "Name": "SIG Sauer ROMEO3 reflex sight",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 4,
         "Accuracy": -6,
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.04,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -79,7 +79,7 @@
         "ItemID": "685b40db60670990eb71ca2d",
         "Name": "EOTech EXPS3 holographic sight (Black)",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 3,
         "Accuracy": 15,
         "ConflictingItems": [],
         "Ergonomics": 1,
@@ -87,6 +87,6 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 3
+        "AimStability": 2
     }
 }

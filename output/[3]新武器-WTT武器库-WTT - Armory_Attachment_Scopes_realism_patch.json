@@ -11,7 +11,7 @@
             "55d5f46a4bdc2d1b198b4567",
             "5bfd4c980db834001b73449d"
         ],
-        "Ergonomics": 0,
+        "Ergonomics": -2,
         "Weight": 0.391,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -52,8 +52,8 @@
         "ItemID": "682be7bf16812803987c3715",
         "Name": "Aimpoint CGA5P 2x telescopic sight with carryhandle",
         "ModType": "sight",
-        "AimSpeed": -9,
-        "Accuracy": 7,
+        "AimSpeed": 4,
+        "Accuracy": 13,
         "ConflictingItems": [
             "5a7c74b3e899ef0014332c29",
             "55d5f46a4bdc2d1b198b4567",
@@ -62,45 +62,43 @@
             "5c0e2f26d174af02a9625114",
             "5bb20d53d4351e4502010a69"
         ],
-        "Ergonomics": -7,
+        "Ergonomics": -1,
         "Weight": 0.19,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "AimStability": 6,
-        "Handling": -7
+        "AimStability": 1
     },
     "2322ee962f6c77a1284abc1e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "2322ee962f6c77a1284abc1e",
         "Name": "BAE Systems SUSAT 4x32 scope",
         "ModType": "sight",
-        "AimSpeed": -9,
-        "Accuracy": 5,
+        "AimSpeed": 3,
+        "Accuracy": 13,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
             "5a7c74b3e899ef0014332c29",
             "5bfd4c980db834001b73449d"
         ],
-        "Ergonomics": -8.6,
+        "Ergonomics": -0.44,
         "Weight": 0.495,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "AimStability": 6,
-        "Handling": -8
+        "AimStability": 1
     },
     "5ae3d18efa17cbd51e898ced": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "5ae3d18efa17cbd51e898ced",
         "Name": "ITL MARS reflex sight",
         "ModType": "sight",
-        "AimSpeed": 2,
+        "AimSpeed": 4,
         "Accuracy": 5,
         "ConflictingItems": [],
-        "Ergonomics": 0.87,
+        "Ergonomics": -0.7,
         "Weight": 0.43,
         "LoyaltyLevel": 4,
-        "AimStability": 3
+        "AimStability": 1
     }
 }

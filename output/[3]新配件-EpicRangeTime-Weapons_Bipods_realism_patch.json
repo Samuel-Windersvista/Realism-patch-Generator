@@ -11,7 +11,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -2,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -53,8 +53,6 @@
         "HorizontalRecoil": 0,
         "Dispersion": 0,
         "AimStability": 0,
-        "Handling": 0,
-        "HeatFactor": 0.01,
-        "CoolFactor": 0.01
+        "Handling": 0
     }
 }

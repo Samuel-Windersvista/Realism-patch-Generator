@@ -14,6 +14,8 @@ from attachment_rule_ranges import MOD_PROFILE_RANGES
 from ammo_rule_ranges import (
     AMMO_PROFILE_KEYWORDS,
     AMMO_PROFILE_RANGES,
+    AMMO_SPECIAL_KEYWORDS,
+    AMMO_SPECIAL_MODIFIERS,
     AMMO_PENETRATION_TIERS,
     AMMO_PENETRATION_MODIFIERS,
 )
@@ -939,6 +941,53 @@ class RealismPatchGenerator:
         # 未匹配到关键词时，使用中间威力步枪弹作为默认档位。
         return "intermediate_rifle"
 
+    def _extract_ammo_variant_text(self, patch: PatchData, item_info: Optional[Mapping[str, Any]]) -> str:
+        """提取弹种型号相关文本，用于第三层型号分档。"""
+        candidates = [
+            patch.get("Name"),
+            patch.get("ShortName"),
+            patch.get("Description"),
+            patch.get("AmmoTooltipClass"),
+        ]
+
+        if item_info and isinstance(item_info.get("properties"), dict):
+            props = item_info["properties"]
+            candidates.extend([
+                props.get("Name"),
+                props.get("ShortName"),
+                props.get("Description"),
+                props.get("AmmoTooltipClass"),
+                props.get("Caliber"),
+            ])
+
+        merged = " ".join(str(v) for v in candidates if v)
+        return merged.lower()
+
+    def _infer_ammo_special_profile(self, patch: PatchData, item_info: Optional[Mapping[str, Any]]) -> Optional[str]:
+        """根据弹种型号关键词推断第三层细分档位。"""
+        variant_text = self._extract_ammo_variant_text(patch, item_info)
+
+        # 使用词元精确匹配，避免短关键词（如 ap/sp）造成子串误判。
+        variant_tokens = set(re.findall(r"[a-z0-9]+", variant_text))
+
+        for profile, keywords in AMMO_SPECIAL_KEYWORDS:
+            for keyword in keywords:
+                normalized = str(keyword).strip().lower().replace("-", " ").replace("_", " ")
+                if not normalized:
+                    continue
+
+                if " " in normalized:
+                    # 复合关键词（如 "soft point"）保留短语匹配能力。
+                    if normalized in variant_text:
+                        return profile
+                    parts = [part for part in normalized.split(" ") if part]
+                    if parts and all(part in variant_tokens for part in parts):
+                        return profile
+                elif normalized in variant_tokens:
+                    return profile
+
+        return None
+
     def _try_parse_number(self, value: Any) -> Optional[float]:
         """将输入值解析为数字。"""
         if isinstance(value, bool):
@@ -971,7 +1020,7 @@ class RealismPatchGenerator:
         """根据穿深推断弹药穿深档位。"""
         penetration = self._extract_penetration_value(patch, item_info)
         if penetration is None:
-            return "pen_medium"
+            return "pen_lvl_5"
 
         for tier, pen_range in AMMO_PENETRATION_TIERS.items():
             if not (isinstance(pen_range, tuple) and len(pen_range) == 2):
@@ -981,7 +1030,7 @@ class RealismPatchGenerator:
             if min_pen <= penetration <= max_pen:
                 return tier
 
-        return "pen_ap_extreme" if penetration > 64 else "pen_very_low"
+        return "pen_lvl_11" if penetration > 130 else "pen_lvl_1"
 
     def _apply_ammo_profile_ranges(self, patch: PatchData, item_info: Optional[Mapping[str, Any]]):
         """应用弹药规则：口径基础范围 + 穿深分层增量修正。"""
@@ -990,7 +1039,9 @@ class RealismPatchGenerator:
             return
 
         penetration_tier = self._infer_ammo_penetration_tier(patch, item_info)
+        special_profile = self._infer_ammo_special_profile(patch, item_info)
         penetration_mods = AMMO_PENETRATION_MODIFIERS.get(penetration_tier, {})
+        special_mods = AMMO_SPECIAL_MODIFIERS.get(special_profile, {}) if special_profile else {}
         base_ranges = AMMO_PROFILE_RANGES[ammo_profile]
         malfunction_keys = {"MalfMisfireChance", "MisfireChance", "MalfFeedChance"}
 
@@ -998,9 +1049,10 @@ class RealismPatchGenerator:
             if not (isinstance(base_range, tuple) and len(base_range) == 2):
                 continue
 
-            delta_pair = penetration_mods.get(key, (0.0, 0.0))
-            min_v = float(base_range[0]) + float(delta_pair[0])
-            max_v = float(base_range[1]) + float(delta_pair[1])
+            tier_pair = penetration_mods.get(key, (0.0, 0.0))
+            special_pair = special_mods.get(key, (0.0, 0.0))
+            min_v = float(base_range[0]) + float(tier_pair[0]) + float(special_pair[0])
+            max_v = float(base_range[1]) + float(tier_pair[1]) + float(special_pair[1])
             if min_v > max_v:
                 min_v, max_v = max_v, min_v
 
@@ -1008,6 +1060,13 @@ class RealismPatchGenerator:
             if key in malfunction_keys:
                 min_v = self._clamp(min_v, 0.001, 0.015)
                 max_v = self._clamp(max_v, 0.001, 0.015)
+                if min_v > max_v:
+                    min_v, max_v = max_v, min_v
+
+            # ArmorDamage 采用护甲/插板耐久伤害倍率，统一限制在 1.00~1.20。
+            if key == "ArmorDamage":
+                min_v = self._clamp(min_v, 1.0, 1.2)
+                max_v = self._clamp(max_v, 1.0, 1.2)
                 if min_v > max_v:
                     min_v, max_v = max_v, min_v
 
@@ -1099,12 +1158,35 @@ class RealismPatchGenerator:
 
     def _infer_sight_profile_from_name(self, item_name: str) -> Optional[str]:
         """根据名称关键词推断瞄具档位。"""
-        if any(k in item_name for k in ["sight_front", "sight_rear", "iron", "mbus", "flip", "backup"]):
+        normalized = item_name.lower().replace(",", ".")
+
+        if any(k in normalized for k in ["sight_front", "sight_rear", "iron", "mbus", "flip", "backup"]):
             return "iron_sight"
-        if any(k in item_name for k in ["red dot", "reddot", "reflex", "holo", "rds", "1x"]):
+
+        red_dot_keywords = [
+            "red dot", "reddot", "reflex", "holo", "holographic", "rds",
+            "eotech", "xps", "exps", "aimpoint", "micro", "t1", "t2",
+            "pk06", "okp", "kobra", "romeo", "holosun", "delta point",
+            "deltapoint", "rmr", "srs", "uh-1",
+            "1p87", "comp_m4", "comp m4", "compm4", "aimpooint",
+            "boss_xe", "boss xe",
+        ]
+        if any(k in normalized for k in red_dot_keywords):
             return "scope_red_dot"
-        if any(k in item_name for k in ["2x", "3x", "4x", "6x", "8x", "10x", "12x", "scope", "lpvo", "acog"]):
+        if re.search(r"(?:^|[^0-9])1(?:[.]0+)?x(?:[^0-9]|$)", normalized):
+            return "scope_red_dot"
+
+        magnified_keywords = [
+            "acog", "prism", "specter", "hamr", "valday", "lpvo", "vudu", "razor",
+            "march", "bravo4", "ta01", "ta11", "ps320", "hensoldt",
+        ]
+        if any(k in normalized for k in magnified_keywords):
             return "scope_magnified"
+        if re.search(r"(?:^|[^0-9])(2|3|4|5|6|7|8|9|10|11|12)(?:[.]\d+)?x(?:[^0-9]|$)", normalized):
+            return "scope_magnified"
+        if re.search(r"(?:^|[^0-9])1(?:[.]\d+)?[-/](2|3|4|5|6|7|8|9|10|11|12)(?:[.]\d+)?(?:x)?(?:[^0-9]|$)", normalized):
+            return "scope_magnified"
+
         return None
 
     def _to_optional_bool(self, value: Any) -> Optional[bool]:
@@ -1202,8 +1284,6 @@ class RealismPatchGenerator:
             sight_profile = self._infer_sight_profile_from_name(name)
             if sight_profile:
                 return sight_profile
-            if name.startswith("scope_"):
-                return "scope_magnified"
             return "scope_red_dot"
         if "adapter" in name and any(k in name for k in ["muzzle", "suppressor", "silencer", "taper", "qd"]):
             return "muzzle_adapter"
@@ -1322,11 +1402,16 @@ class RealismPatchGenerator:
         if mod_type in ["scope", "assault_scope"]:
             return "scope_magnified"
         if mod_type in ["sight"]:
-            if base_profile in {"iron_sight", "scope_red_dot", "scope_magnified"}:
-                return base_profile
             sight_profile = self._infer_sight_profile_from_name(name)
             if sight_profile:
                 return sight_profile
+            template_file = str((item_info or {}).get("template_file") or "")
+            if template_file == "ScopeTemplates.json":
+                # ScopeTemplates 在 CURRENT_PATCH 缺 parentId 时会回填到通用 parent，
+                # 该 parent 倾向高倍；未命中关键词时优先给红点兜底，避免整批误判。
+                return "scope_red_dot"
+            if base_profile in {"iron_sight", "scope_red_dot", "scope_magnified"}:
+                return base_profile
             return "scope_red_dot"
 
         fallback_profile = self._infer_mod_profile_from_name_fallback(name, item_info, patch)
@@ -2710,7 +2795,7 @@ class RealismPatchGenerator:
 def main():
     """主函数"""
     print("=" * 60)
-    print("EFT 现实主义MOD兼容补丁生成器 v3.6")
+    print("EFT 现实主义MOD兼容补丁生成器 v3.11")
     print("=" * 60)
     
     # 获取脚本所在目录

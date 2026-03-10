@@ -5,7 +5,7 @@
         "Name": "Zenitco Perst 4 tactical device",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.33,
+        "Ergonomics": -0.62,
         "Weight": 0.22,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -18,7 +18,7 @@
         "Name": "Wilcox RAID Xe tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.1,
+        "Ergonomics": -1.44,
         "Weight": 0.137,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -31,7 +31,7 @@
         "Name": "Wilcox RAID Xe tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.43,
+        "Ergonomics": -1.52,
         "Weight": 0.137,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -44,7 +44,7 @@
         "Name": "Phantom Hill CTF-2 tactical device",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -0.88,
+        "Ergonomics": -0.86,
         "Weight": 0.323,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -57,12 +57,12 @@
         "Name": "Steiner DBAL-i2 tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.34,
+        "Ergonomics": -1.82,
         "Weight": 0.226,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "Handling": -2
+        "Handling": -3
     },
     "e727709694036c1f49f234e6": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -70,12 +70,12 @@
         "Name": "Steiner DBAL-i2 tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.44,
+        "Ergonomics": -1.23,
         "Weight": 0.226,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "Handling": -2
+        "Handling": -3
     },
     "0257250579c25ee07a7fd721": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -83,12 +83,12 @@
         "Name": "Steiner OTAL-C tactical device (Black-Vis)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.119,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -3
+        "Handling": -4
     },
     "e99dbf09963efebab19a118b": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -101,7 +101,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -2
+        "Handling": -3
     },
     "0ce051265bcb619558b2ef9a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -127,7 +127,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -3
+        "Handling": -4
     },
     "c0e0bac29a8c50eff201f00e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -135,7 +135,7 @@
         "Name": "Steiner CQBL-1 tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Weight": 0.17,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -148,7 +148,7 @@
         "Name": "Steiner CQBL-1 tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.17,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -174,7 +174,7 @@
         "Name": "Eotech OGL tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -2,
+        "Ergonomics": 0,
         "Weight": 0.227,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -192,7 +192,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -2
+        "Handling": -3
     },
     "a681a1c93529b1fb2118488a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -205,7 +205,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -2
+        "Handling": -4
     },
     "673dee1aa998f18003f111f5": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -213,7 +213,7 @@
         "Name": "Steiner DBAL-A3 tactical device",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.218,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
