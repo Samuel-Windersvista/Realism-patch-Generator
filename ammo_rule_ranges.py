@@ -83,10 +83,10 @@ AMMO_PROFILE_RANGES = {
         "InitialSpeed": (270, 330),
         "BulletMassGram": (15.0, 18.5),
         "Damage": (60, 78),
-        "PenetrationPower": (45, 96),
-        "ammoRec": (12, 30),
-        "ammoAccr": (-16, -4),
-        "ArmorDamage": (1.10, 1.19),
+        "PenetrationPower": (45, 85),
+        "ammoRec": (6, 15),
+        "ammoAccr": (-10, -5),
+        "ArmorDamage": (1.0, 1.15),
         "HeatFactor": (1.05, 1.30),
         "HeavyBleedingDelta": (0.02, 0.30),
         "LightBleedingDelta": (0.08, 0.34),
@@ -150,10 +150,10 @@ AMMO_PROFILE_RANGES = {
     "intermediate_rifle": {
         "InitialSpeed": (650, 940),
         "BulletMassGram": (3.2, 11.0),
-        "Damage": (42, 74),
-        "PenetrationPower": (30, 78),
-        "ammoRec": (-4, 14),
-        "ammoAccr": (-6, 10),
+        "Damage": (58, 74),
+        "PenetrationPower": (58, 89),
+        "ammoRec": (-4, 10),
+        "ammoAccr": (-3, 5),
         "ArmorDamage": (1.06, 1.14),
         "HeatFactor": (0.95, 1.20),
         "HeavyBleedingDelta": (0.0, 0.20),
@@ -254,18 +254,15 @@ AMMO_PROFILE_KEYWORDS = [
 # 弹种型号关键词（第三层分类，按顺序匹配）
 # 基于 `现实主义物品模板/ammo/ammoTemplates.json`（402 条）的真实 Name 词元统计制定。
 AMMO_SPECIAL_KEYWORDS = [
-    # 指定型号优先（避免与通用档混淆）
-    ("model_m995", ["m995", "995"]),
-    ("model_m855a1", ["m855a1", "855a1"]),
 
     # 顶级穿甲：模板中高穿深识别弹种
-    ("ap_extreme", ["m993", "m61", "7n39", "7n37", "7n40", "7n42", "snb", "slaap"]),
+    ("ap_extreme", ["m993", "m61", "7n39", "7n37", "7n40", "7n42", "snb", "slaap", "m995", "995"]),
 
     # 示踪取向：模板中典型 tracer 命名
     ("tracer", ["tracer", "m62", "m856", "856", "m856a1", "856a1", "t46m", "bt"]),
 
     # 常规穿甲：模板中常见 AP / steel-core 族
-    ("ap_high", ["ap", "api", "bs", "bp", "pbm", "pp", "upz", "cbj", "ss190", "l191"]),
+    ("ap_high", ["ap", "api", "bs", "bp", "pbm", "pp", "upz", "cbj", "ss190", "l191", "m855a1", "855a1"]),
 
     # 亚音速重弹：模板中 `us` / `subsonic` / 重亚音速族
     ("subsonic_heavy", ["subsonic", "us", "pab9", "sb193", "sp6", "spp"]),
@@ -282,30 +279,6 @@ AMMO_SPECIAL_KEYWORDS = [
 
 # 第三层型号增量修正（在“口径基础 + 穿深层级”后继续叠加）
 AMMO_SPECIAL_MODIFIERS = {
-    "model_m995": {
-        "PenetrationPower": (16, 28),
-        "Damage": (-12, -4),
-        "ArmorDamage": (0.025, 0.045),
-        "HeatFactor": (0.10, 0.22),
-        "DurabilityBurnModificator": (0.14, 0.30),
-        "ammoRec": (5, 14),
-        "ammoAccr": (-10, -3),
-        "MalfMisfireChance": (0.001, 0.004),
-        "MisfireChance": (0.001, 0.004),
-        "MalfFeedChance": (0.001, 0.004),
-    },
-    "model_m855a1": {
-        "PenetrationPower": (6, 12),
-        "Damage": (-4, 2),
-        "ArmorDamage": (0.01, 0.03),
-        "HeatFactor": (0.04, 0.14),
-        "DurabilityBurnModificator": (0.06, 0.18),
-        "ammoRec": (2, 8),
-        "ammoAccr": (-6, -1),
-        "MalfMisfireChance": (0.0005, 0.003),
-        "MisfireChance": (0.0005, 0.003),
-        "MalfFeedChance": (0.0005, 0.003),
-    },
     "ap_extreme": {
         "PenetrationPower": (8, 16),
         "Damage": (-8, -2),

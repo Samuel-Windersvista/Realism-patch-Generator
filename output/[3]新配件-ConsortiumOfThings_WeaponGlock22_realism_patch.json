@@ -8,13 +8,13 @@
         "WeapAccuracy": 0,
         "BaseTorque": -1,
         "HasShoulderContact": false,
-        "Ergonomics": 95,
-        "VerticalRecoil": 471,
-        "HorizontalRecoil": 412,
-        "Dispersion": 18,
-        "CameraRecoil": 0.004,
-        "VisualMulti": 2,
-        "Convergence": 14,
+        "Ergonomics": 97,
+        "VerticalRecoil": 437,
+        "HorizontalRecoil": 308,
+        "Dispersion": 11,
+        "CameraRecoil": 0.05,
+        "VisualMulti": 3,
+        "Convergence": 20,
         "RecoilAngle": 93,
         "BaseMalfunctionChance": 0.0015,
         "HeatFactorGun": 0.2,
@@ -44,7 +44,7 @@
         "BaseChamberCheckSpeed": 1,
         "BaseFixSpeed": 1,
         "OffsetRotation": 0.011,
-        "RecoilIntensity": 0.06,
+        "RecoilIntensity": 0.05,
         "ConflictingItems": [
             "5a7ad74e51dfba0015068f45"
         ]
@@ -54,10 +54,10 @@
         "ItemID": "6851b17ddcbd0df4a2b4c65f",
         "Name": "Glock .40 S&W 15-round magazine",
         "ModType": "",
-        "ReloadSpeed": 6,
+        "ReloadSpeed": 1,
         "Ergonomics": 1,
         "MalfunctionChance": 0,
-        "LoadUnloadModifier": 12,
+        "LoadUnloadModifier": 8,
         "CheckTimeModifier": -1,
         "ConflictingItems": [],
         "Weight": 0.096,
@@ -66,15 +66,15 @@
         "LoyaltyLevel": 1,
         "ModMalfunctionChance": -1,
         "AimSpeed": 1,
-        "Handling": 2
+        "Handling": 3
     },
     "68578ef2a309a2ba960103d9": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "68578ef2a309a2ba960103d9",
         "Name": "Glock .40 S&W KRISS G22 MagEx 31-round magazine",
         "ModType": "",
-        "ReloadSpeed": -3,
-        "Ergonomics": -1,
+        "ReloadSpeed": 0,
+        "Ergonomics": 0,
         "MalfunctionChance": 0.1,
         "LoadUnloadModifier": 6,
         "CheckTimeModifier": 1,
@@ -83,8 +83,8 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "ModMalfunctionChance": 0.52,
-        "AimSpeed": 0,
-        "Handling": -1
+        "ModMalfunctionChance": 0.83,
+        "AimSpeed": -1,
+        "Handling": 0
     }
 }

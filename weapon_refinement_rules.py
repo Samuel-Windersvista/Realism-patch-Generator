@@ -23,6 +23,14 @@ WEAPON_CALIBER_RULE_MODIFIERS = {
         "Velocity": (0, 3),
         "RecoilIntensity": (-0.03, 0.02),
     },
+    # 5.8x42（中间威力偏高速，后坐与冲击感高于 5.56）
+    "intermediate_rifle_58x42": {
+        "VerticalRecoil": (12, 12),
+        "HorizontalRecoil": (18, 18),
+        "Convergence": (-1, 3),
+        "Velocity": (3, 3),
+        "RecoilIntensity": (-0.01, 0.04),
+    },
     # 7.62x39（中间威力）
     "intermediate_rifle_762x39": {
         "VerticalRecoil": (8, 45),
@@ -30,6 +38,14 @@ WEAPON_CALIBER_RULE_MODIFIERS = {
         "Convergence": (-1, 2),
         "Velocity": (2, 6),
         "RecoilIntensity": (0.01, 0.06),
+    },
+    # 9x39（亚音速重弹头，后坐偏沉、弹速偏低）
+    "subsonic_heavy_9x39": {
+        "VerticalRecoil": (-45, -60),
+        "HorizontalRecoil": (-20, -35),
+        "Convergence": (-4, 2),
+        "Velocity": (-8, -6),
+        "RecoilIntensity": (0.03, 0.09),
     },
     # 7.62x51 / 6.8（全威力）
     "full_power_rifle": {
@@ -79,6 +95,8 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "VerticalRecoil": (-15, -5),
         "HorizontalRecoil": (-10, -3),
         "Convergence": (2, 6),
+        "CameraRecoil": (-0.02, -0.006),
+        "VisualMulti": (-0.08, -0.02),
         "Ergonomics": (-4, 2),
         "BaseReloadSpeedMulti": (0.98, 1.05),
     },
@@ -86,6 +104,8 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "VerticalRecoil": (-8, 2),
         "HorizontalRecoil": (-5, 3),
         "Convergence": (0, 3),
+        "CameraRecoil": (-0.01, 0.004),
+        "VisualMulti": (-0.03, 0.04),
         "Ergonomics": (0, 5),
         "BaseReloadSpeedMulti": (0.98, 1.03),
     },
@@ -93,23 +113,27 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "VerticalRecoil": (10, 55),
         "HorizontalRecoil": (8, 45),
         "Convergence": (-6, -2),
+        "CameraRecoil": (0.01, 0.05),
         "Ergonomics": (3, 12),
         "VisualMulti": (0.08, 0.25),
     },
     "bullpup": {
-        "VerticalRecoil": (0, 20),
-        "HorizontalRecoil": (-3, 10),
-        "Convergence": (0, 4),
+        "VerticalRecoil": (-22, -8),
+        "HorizontalRecoil": (-14, -5),
+        "Convergence": (3, 8),
+        "CameraRecoil": (0.004, 0.02),
+        "VisualMulti": (0.03, 0.12),
         "Ergonomics": (-6, 2),
         "BaseReloadSpeedMulti": (0.84, 0.95),
         "BaseChamberCheckSpeed": (0.9, 1.05),
     },
     "stockless": {
-        "VerticalRecoil": (25, 60),
-        "HorizontalRecoil": (13, 45),
-        "Convergence": (-8, -3),
-        "VisualMulti": (0.2, 0.75),
-        "RecoilIntensity": (0.03, 0.14),
+        "VerticalRecoil": (-20, -6),
+        "HorizontalRecoil": (-12, -4),
+        "Convergence": (1, 6),
+        "CameraRecoil": (0.02, 0.07),
+        "VisualMulti": (0.15, 0.55),
+        "RecoilIntensity": (0.02, 0.1),
     },
 }
 
@@ -132,6 +156,12 @@ CALIBER_PROFILE_KEYWORDS = [
     ]),
     ("intermediate_rifle_762x39", [
         "7.62x39",
+    ]),
+    ("intermediate_rifle_58x42", [
+        "5.8x42", "58x42", "caliber58x42", "5.8x42mm",
+    ]),
+    ("subsonic_heavy_9x39", [
+        "9x39",
     ]),
     ("small_high_velocity", [
         "5.45x39", "5.56x45", "5.56", "223", ".223",

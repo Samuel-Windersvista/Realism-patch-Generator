@@ -258,7 +258,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 4,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -281,7 +281,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Accuracy": 4,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -290,7 +290,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.005,
         "LoyaltyLevel": 1,
-        "Handling": -4
+        "Handling": -2
     },
     "5bfe86bd0db83400232fe959": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -304,7 +304,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -313,7 +313,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.005,
         "LoyaltyLevel": 1,
-        "Handling": -4
+        "Handling": -3
     },
     "591c4e1186f77410354b316e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -350,7 +350,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -2,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -373,7 +373,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -405,7 +405,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.2,
         "LoyaltyLevel": 3,
-        "Handling": -3
+        "Handling": -2
     },
     "60785c0d232e5a31c233d51c": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -419,7 +419,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -442,7 +442,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 4,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -465,7 +465,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 4,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -474,7 +474,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.005,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -4
     },
     "5a1eacb3fcdbcb09800872be": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -511,7 +511,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 20,
-        "Ergonomics": -2,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -534,7 +534,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 20,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -543,7 +543,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.05,
         "LoyaltyLevel": 2,
-        "Handling": -3
+        "Handling": -2
     },
     "56083eab4bdc2d26448b456a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -557,7 +557,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 5,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -629,7 +629,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -639,7 +639,7 @@
         "Weight": 0.005,
         "LoyaltyLevel": 3,
         "AimStability": 5,
-        "Handling": -2
+        "Handling": -4
     },
     "5d123b70d7ad1a0ee35e0754": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -654,7 +654,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -1.58,
+        "Ergonomics": -0.22,
         "Accuracy": 1.0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -664,7 +664,7 @@
         "Weight": 0.007,
         "LoyaltyLevel": 2,
         "AimStability": 3,
-        "Handling": -2.4
+        "Handling": -2.94
     },
     "5d124c0ed7ad1a10d168dd9b": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -679,7 +679,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 0,
         "ReloadSpeed": 0,
-        "Ergonomics": -0.48,
+        "Ergonomics": -0.85,
         "Accuracy": 1.0,
         "ConflictingItems": [],
         "FixSpeed": 0,
@@ -689,7 +689,7 @@
         "Weight": 0.007,
         "LoyaltyLevel": 3,
         "AimStability": 3,
-        "Handling": -3.24
+        "Handling": -2.7
     },
     "5d123a3cd7ad1a004e476058": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -714,7 +714,7 @@
         "Weight": 0.004,
         "LoyaltyLevel": 2,
         "AimStability": 2,
-        "Handling": -2
+        "Handling": -3
     },
     "5d124c01d7ad1a115c7d59fb": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -968,7 +968,7 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.005,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -4
     },
     "63fc4533b10b17385349b565": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -992,7 +992,7 @@
         "Weight": 0.005,
         "MalfChance": 0,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -2
     },
     "6513f037e06849f06c0957d7": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -1062,7 +1062,7 @@
         "MalfChance": 0,
         "AimStability": 5,
         "LoyaltyLevel": 1,
-        "Handling": -2
+        "Handling": -3
     },
     "67641bec4ad898aa100c1079": {
         "$type": "RealismMod.WeaponMod, RealismMod",

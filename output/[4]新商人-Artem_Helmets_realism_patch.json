@@ -260,7 +260,7 @@
         "ItemID": "66bf757f27d0b097db0ace46",
         "Name": "MOHOC® IR Camera",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -332,7 +332,7 @@
         "ItemID": "6773f2fc34e508088a53800f",
         "Name": "Augmento™ 头盔吉利罩 第二代（Multicam）",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -422,7 +422,7 @@
         "ItemID": "6770ba90ecb0e684560d8184",
         "Name": "V‑Lites（红外）",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"

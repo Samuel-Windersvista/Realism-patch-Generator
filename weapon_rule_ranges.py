@@ -34,7 +34,7 @@ WEAPON_PROFILE_RANGES = {
         "RecoilIntensity": (0.08, 0.16),
     },
     "sniper": {
-        "VerticalRecoil": (110, 220),
+        "VerticalRecoil": (110, 180),
         "HorizontalRecoil": (150, 300),
         "Convergence": (8, 13),
         "Dispersion": (0.5, 3.0),

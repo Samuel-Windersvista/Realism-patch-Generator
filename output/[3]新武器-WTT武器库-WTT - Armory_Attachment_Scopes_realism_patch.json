@@ -4,7 +4,7 @@
         "ItemID": "03f6c86c56945862820e1006",
         "Name": "Aimpoint CS reflex sight",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 3,
         "Accuracy": -2,
         "ConflictingItems": [
             "5a7c74b3e899ef0014332c29",
@@ -30,7 +30,7 @@
         "ModMalfunctionChance": 0,
         "AimSpeed": 1,
         "ReloadSpeed": 0,
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 3,
         "ConflictingItems": [
             "57ae0171245977343c27bfcf",
@@ -45,14 +45,14 @@
         "DurabilityBurnModificator": 1,
         "Weight": 0.025,
         "LoyaltyLevel": 1,
-        "Handling": -3
+        "Handling": -4
     },
     "682be7bf16812803987c3715": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "682be7bf16812803987c3715",
         "Name": "Aimpoint CGA5P 2x telescopic sight with carryhandle",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 3,
         "Accuracy": 13,
         "ConflictingItems": [
             "5a7c74b3e899ef0014332c29",
@@ -62,7 +62,7 @@
             "5c0e2f26d174af02a9625114",
             "5bb20d53d4351e4502010a69"
         ],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.19,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -81,7 +81,7 @@
             "5a7c74b3e899ef0014332c29",
             "5bfd4c980db834001b73449d"
         ],
-        "Ergonomics": -0.44,
+        "Ergonomics": -1.07,
         "Weight": 0.495,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -96,7 +96,7 @@
         "AimSpeed": 4,
         "Accuracy": 5,
         "ConflictingItems": [],
-        "Ergonomics": -0.7,
+        "Ergonomics": 1.53,
         "Weight": 0.43,
         "LoyaltyLevel": 4,
         "AimStability": 1

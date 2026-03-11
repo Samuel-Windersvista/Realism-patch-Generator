@@ -5,7 +5,7 @@
         "Name": "Zenitco Perst 4 tactical device",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -0.62,
+        "Ergonomics": -1.31,
         "Weight": 0.22,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -18,7 +18,7 @@
         "Name": "Wilcox RAID Xe tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.44,
+        "Ergonomics": -0.89,
         "Weight": 0.137,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -31,12 +31,12 @@
         "Name": "Wilcox RAID Xe tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.52,
+        "Ergonomics": -0.56,
         "Weight": 0.137,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 3,
-        "Handling": -3
+        "Handling": -4
     },
     "b1c1a92264b2e9c5dc64506e": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -44,7 +44,7 @@
         "Name": "Phantom Hill CTF-2 tactical device",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -0.86,
+        "Ergonomics": -0.18,
         "Weight": 0.323,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -57,7 +57,7 @@
         "Name": "Steiner DBAL-i2 tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.82,
+        "Ergonomics": -1.29,
         "Weight": 0.226,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -70,7 +70,7 @@
         "Name": "Steiner DBAL-i2 tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1.23,
+        "Ergonomics": -1.67,
         "Weight": 0.226,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -88,7 +88,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 2,
-        "Handling": -4
+        "Handling": -3
     },
     "e99dbf09963efebab19a118b": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -96,7 +96,7 @@
         "Name": "Steiner OTAL-C tactical device (FDE-Vis)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.159,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -109,7 +109,7 @@
         "Name": "Steiner OTAL-C tactical device (FDE-IR)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -2,
+        "Ergonomics": 0,
         "Weight": 0.159,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -122,7 +122,7 @@
         "Name": "Steiner OTAL-C tactical device (Black-IR)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Weight": 0.119,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -135,7 +135,7 @@
         "Name": "Steiner CQBL-1 tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -2,
+        "Ergonomics": -1,
         "Weight": 0.17,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -148,7 +148,7 @@
         "Name": "Steiner CQBL-1 tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.17,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -174,7 +174,7 @@
         "Name": "Eotech OGL tactical device (Black)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.227,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -187,12 +187,12 @@
         "Name": "Eotech OGL tactical device (FDE)",
         "ModType": "",
         "ConflictingItems": [],
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Weight": 0.227,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -3
+        "Handling": -2
     },
     "a681a1c93529b1fb2118488a": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -205,7 +205,7 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -4
+        "Handling": -3
     },
     "673dee1aa998f18003f111f5": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -218,6 +218,6 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "Handling": -3
+        "Handling": -2
     }
 }

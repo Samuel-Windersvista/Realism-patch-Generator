@@ -22,7 +22,7 @@
         "ItemID": "66bf757f27d0b097db0ace3e",
         "Name": "太阳战士徽章",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -40,7 +40,7 @@
         "ItemID": "66bf757f27d0b097db0ace3f",
         "Name": "'Oi Matey' Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -76,7 +76,7 @@
         "ItemID": "66bf757f27d0b097db0ace41",
         "Name": "USEC Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -94,7 +94,7 @@
         "ItemID": "66bf757f27d0b097db0ace42",
         "Name": "BEAR Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -148,7 +148,7 @@
         "ItemID": "6752641b1470fc33b675d59a",
         "Name": "Sweden Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -166,7 +166,7 @@
         "ItemID": "676a24b5c3a24ed47d79720c",
         "Name": "'Fren' Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -256,7 +256,7 @@
         "ItemID": "676ad83f4488c50df0ebb8ff",
         "Name": "Germany Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -328,7 +328,7 @@
         "ItemID": "66bf757f27d0b097db0ace52",
         "Name": "Australia Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -346,7 +346,7 @@
         "ItemID": "66bf757f27d0b097db0ace53",
         "Name": "Canada Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -364,7 +364,7 @@
         "ItemID": "66bf757f27d0b097db0ace54",
         "Name": "Poland Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -382,7 +382,7 @@
         "ItemID": "66bf757f27d0b097db0ace4d",
         "Name": "Solaire Circular Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -436,7 +436,7 @@
         "ItemID": "66bf757f27d0b097db0ace57",
         "Name": "Brotherhood Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -508,7 +508,7 @@
         "ItemID": "674f48eaa2e633be4b4348c4",
         "Name": "夜视仪电池包",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -580,7 +580,7 @@
         "ItemID": "6771bb1b8df8c956d414842c",
         "Name": "Ferro Concepts 电池包（土狼色）",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -616,7 +616,7 @@
         "ItemID": "6771bdde30136eb8171a4b36",
         "Name": "Ferro Concepts Battery Pack (Black)",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -706,7 +706,7 @@
         "ItemID": "674f681bda9a0c381171ea25",
         "Name": "Helmet Cover Multicam",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"

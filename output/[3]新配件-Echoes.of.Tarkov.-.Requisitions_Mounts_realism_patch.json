@@ -36,7 +36,7 @@
         "ItemID": "6845a2443b726a816a6ca79e",
         "Name": "CN Armament DUAL45 Backup mount",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "6837716de936d83c13099eea",
@@ -116,7 +116,7 @@
         "ItemID": "685097dbb9aa83c9e35c5027",
         "Name": "Glock MOS slide cap",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [],
         "Weight": 0.007,
@@ -132,16 +132,16 @@
         "ItemID": "686a5a6247c881f613196f91",
         "Name": "Canted Aim",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 5,
         "Accuracy": -15,
         "ConflictingItems": [
             "686a5a6247c881f613196f91"
         ],
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Weight": 0.113,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 1,
-        "AimStability": 0
+        "AimStability": 2
     }
 }
