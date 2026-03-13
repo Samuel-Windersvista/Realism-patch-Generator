@@ -9,10 +9,10 @@
         "BaseTorque": 0,
         "HasShoulderContact": false,
         "Ergonomics": 73,
-        "VerticalRecoil": 205,
+        "VerticalRecoil": 219,
         "HorizontalRecoil": 236,
         "Dispersion": 2.43,
-        "CameraRecoil": 0.07,
+        "CameraRecoil": 0.06,
         "VisualMulti": 1.77,
         "Convergence": 10,
         "RecoilAngle": 90,
@@ -27,7 +27,7 @@
         "HipAccuracyRestorationSpeed": 7,
         "HipInnaccuracyGain": 0.16,
         "ShotgunDispersion": 0,
-        "Velocity": 10,
+        "Velocity": 15,
         "RecoilDamping": 0.86,
         "RecoilHandDamping": 0.4,
         "WeaponAllowADS": false,
@@ -44,7 +44,7 @@
         "BaseChamberCheckSpeed": 1.7,
         "BaseFixSpeed": 1.7,
         "OffsetRotation": 0.01,
-        "RecoilIntensity": 0.16
+        "RecoilIntensity": 0.17
     },
     "6657bd4d3a4d6e7c33fd2fdc": {
         "$type": "RealismMod.Gun, RealismMod",
@@ -56,10 +56,10 @@
         "BaseTorque": 0,
         "HasShoulderContact": false,
         "Ergonomics": 80,
-        "VerticalRecoil": 172,
+        "VerticalRecoil": 185,
         "HorizontalRecoil": 245,
         "Dispersion": 2.5,
-        "CameraRecoil": 0.05,
+        "CameraRecoil": 0.04,
         "VisualMulti": 1.86,
         "Convergence": 17,
         "RecoilAngle": 90,
@@ -74,7 +74,7 @@
         "HipAccuracyRestorationSpeed": 7,
         "HipInnaccuracyGain": 0.16,
         "ShotgunDispersion": 0,
-        "Velocity": 8,
+        "Velocity": 9,
         "RecoilDamping": 0.86,
         "RecoilHandDamping": 0.4,
         "WeaponAllowADS": false,
@@ -91,7 +91,7 @@
         "BaseChamberCheckSpeed": 1.7,
         "BaseFixSpeed": 1.7,
         "OffsetRotation": 0.01,
-        "RecoilIntensity": 0.12
+        "RecoilIntensity": 0.11
     },
     "6657bd663a5a69b08786fecc": {
         "$type": "RealismMod.WeaponMod, RealismMod",

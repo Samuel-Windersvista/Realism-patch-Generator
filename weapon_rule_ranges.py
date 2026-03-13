@@ -7,7 +7,7 @@
 # 武器规则范围（来自“武器属性规则指南”）
 WEAPON_PROFILE_RANGES = {
     "assault": {
-        "VerticalRecoil": (75, 105),
+        "VerticalRecoil": (80, 110),
         "HorizontalRecoil": (140, 185),
         "Convergence": (2, 25),
         "Dispersion": (4, 8),
@@ -16,7 +16,7 @@ WEAPON_PROFILE_RANGES = {
         "RecoilIntensity": (0.12, 0.22),
     },
     "pistol": {
-        "VerticalRecoil": (320, 520),
+        "VerticalRecoil": (325, 525),
         "HorizontalRecoil": (280, 480),
         "Convergence": (12, 18),
         "Dispersion": (10, 18),
@@ -25,7 +25,7 @@ WEAPON_PROFILE_RANGES = {
         "BaseTorque": (-2.0, -1.0),
     },
     "smg": {
-        "VerticalRecoil": (32, 59),
+        "VerticalRecoil": (37, 64),
         "HorizontalRecoil": (70, 120),
         "Convergence": (16, 22),
         "Dispersion": (6, 12),
@@ -34,7 +34,7 @@ WEAPON_PROFILE_RANGES = {
         "RecoilIntensity": (0.08, 0.16),
     },
     "sniper": {
-        "VerticalRecoil": (110, 180),
+        "VerticalRecoil": (115, 185),
         "HorizontalRecoil": (150, 300),
         "Convergence": (8, 13),
         "Dispersion": (0.5, 3.0),
@@ -42,7 +42,7 @@ WEAPON_PROFILE_RANGES = {
         "Ergonomics": (68, 83),
     },
     "shotgun": {
-        "VerticalRecoil": (240, 420),
+        "VerticalRecoil": (245, 425),
         "HorizontalRecoil": (240, 460),
         "Dispersion": (15, 30),
         "VisualMulti": (1.8, 2.3),
@@ -51,7 +51,7 @@ WEAPON_PROFILE_RANGES = {
         "ShotgunDispersion": (1, 1),
     },
     "machinegun": {
-        "VerticalRecoil": (130, 240),
+        "VerticalRecoil": (135, 245),
         "HorizontalRecoil": (200, 360),
         "Convergence": (4, 14),
         "Dispersion": (6, 14),
@@ -60,7 +60,7 @@ WEAPON_PROFILE_RANGES = {
         "RecoilIntensity": (0.2, 0.35),
     },
     "launcher": {
-        "VerticalRecoil": (180, 360),
+        "VerticalRecoil": (185, 365),
         "HorizontalRecoil": (240, 500),
         "Convergence": (2, 10),
         "Dispersion": (8, 18),

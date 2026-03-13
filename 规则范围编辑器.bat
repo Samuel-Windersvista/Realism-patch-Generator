@@ -1,11 +1,15 @@
 @echo off
 chcp 65001 >nul
 echo ============================================================
-echo EFT 现实主义MOD兼容补丁生成器
+echo EFT 规则范围编辑器
 echo ============================================================
 echo.
 
-python generate_realism_patch.py
+if exist ".venv\Scripts\python.exe" (
+	".venv\Scripts\python.exe" rule_range_editor.py
+) else (
+	python rule_range_editor.py
+)
 
 echo.
 echo ============================================================

@@ -2675,7 +2675,7 @@ class RealismPatchGenerator:
 def main():
     """主函数"""
     print("=" * 60)
-    print("EFT 现实主义数值生成器 v3.17")
+    print("EFT 现实主义数值生成器 v3.5")
     print("=" * 60)
     
     # 获取脚本所在目录

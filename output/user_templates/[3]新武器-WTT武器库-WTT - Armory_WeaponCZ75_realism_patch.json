@@ -9,7 +9,7 @@
         "BaseTorque": -1.54,
         "HasShoulderContact": false,
         "Ergonomics": 96,
-        "VerticalRecoil": 490,
+        "VerticalRecoil": 504,
         "HorizontalRecoil": 371,
         "Dispersion": 15,
         "CameraRecoil": 0.04,
@@ -169,7 +169,7 @@
         "BaseTorque": -1.58,
         "HasShoulderContact": false,
         "Ergonomics": 95,
-        "VerticalRecoil": 423,
+        "VerticalRecoil": 435,
         "HorizontalRecoil": 367,
         "Dispersion": 13,
         "CameraRecoil": 0.04,
@@ -187,7 +187,7 @@
         "HipAccuracyRestorationSpeed": 7,
         "HipInnaccuracyGain": 0.16,
         "ShotgunDispersion": 10,
-        "Velocity": 0,
+        "Velocity": 1,
         "RecoilDamping": 0.74,
         "RecoilHandDamping": 0.43,
         "WeaponAllowADS": false,
@@ -204,6 +204,6 @@
         "BaseChamberCheckSpeed": 1,
         "BaseFixSpeed": 1,
         "OffsetRotation": 0.01,
-        "RecoilIntensity": 0.13
+        "RecoilIntensity": 0.1
     }
 }

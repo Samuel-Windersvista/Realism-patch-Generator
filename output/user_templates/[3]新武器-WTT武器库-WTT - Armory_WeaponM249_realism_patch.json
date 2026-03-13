@@ -14,7 +14,7 @@
         "HasShoulderContact": false,
         "WeaponAllowADS": false,
         "Ergonomics": 80,
-        "VerticalRecoil": 198,
+        "VerticalRecoil": 210,
         "HorizontalRecoil": 226,
         "Dispersion": 12,
         "CameraRecoil": 0.04,

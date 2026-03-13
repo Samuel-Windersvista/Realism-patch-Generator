@@ -9,7 +9,7 @@
         "BaseTorque": -1,
         "HasShoulderContact": false,
         "Ergonomics": 89,
-        "VerticalRecoil": 77,
+        "VerticalRecoil": 89,
         "HorizontalRecoil": 151,
         "Dispersion": 7,
         "CameraRecoil": 0.05,

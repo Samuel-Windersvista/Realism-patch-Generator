@@ -92,7 +92,7 @@ WEAPON_CALIBER_RULE_MODIFIERS = {
 # 枪托形态细分修正（对基础武器范围做增量）
 WEAPON_STOCK_RULE_MODIFIERS = {
     "fixed_stock": {
-        "VerticalRecoil": (-15, -5),
+        "VerticalRecoil": (-5, 5),
         "HorizontalRecoil": (-10, -3),
         "Convergence": (2, 6),
         "CameraRecoil": (-0.02, -0.006),
@@ -101,7 +101,7 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "BaseReloadSpeedMulti": (0.98, 1.05),
     },
     "folding_stock_extended": {
-        "VerticalRecoil": (-8, 2),
+        "VerticalRecoil": (2, 12),
         "HorizontalRecoil": (-5, 3),
         "Convergence": (0, 3),
         "CameraRecoil": (-0.01, 0.004),
@@ -110,7 +110,7 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "BaseReloadSpeedMulti": (0.98, 1.03),
     },
     "folding_stock_collapsed": {
-        "VerticalRecoil": (10, 55),
+        "VerticalRecoil": (20, 65),
         "HorizontalRecoil": (8, 45),
         "Convergence": (-6, -2),
         "CameraRecoil": (0.01, 0.05),
@@ -118,7 +118,7 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "VisualMulti": (0.08, 0.25),
     },
     "bullpup": {
-        "VerticalRecoil": (-22, -8),
+        "VerticalRecoil": (-12, 2),
         "HorizontalRecoil": (-14, -5),
         "Convergence": (3, 8),
         "CameraRecoil": (0.004, 0.02),
@@ -128,7 +128,7 @@ WEAPON_STOCK_RULE_MODIFIERS = {
         "BaseChamberCheckSpeed": (0.9, 1.05),
     },
     "stockless": {
-        "VerticalRecoil": (-20, -6),
+        "VerticalRecoil": (-10, 4),
         "HorizontalRecoil": (-12, -4),
         "Convergence": (1, 6),
         "CameraRecoil": (0.02, 0.07),

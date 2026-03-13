@@ -1,8 +1,8 @@
-# Realism 装备数值规则指南（v3.17）
+# Realism 装备数值规则指南（v3.5）
 
 本文档与 gear_rule_ranges.py、generate_realism_patch.py 中的装备规则应用链路保持同步，描述当前 gear 各模板文件如何归档、如何命中规则，以及调参时应修改哪些入口。
 
-## 0. 同步说明（2026-03-14 / v3.17）
+## 0. 同步说明（2026-03-14 / v3.5）
 
 - 当前规则源文件：gear_rule_ranges.py
 - 当前全局夹紧来源：generate_realism_patch.py 中的 GEAR_CLAMP_RULES
