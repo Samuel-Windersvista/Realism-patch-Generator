@@ -31,7 +31,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.96,
+        "SpallReduction": 0.91,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -57,7 +57,7 @@
         "LoyaltyLevel": 3,
         "ArmorClass": "Anti-Shatter Resistance V50 ≥ 230 m/s",
         "CanSpall": false,
-        "SpallReduction": 0.84,
+        "SpallReduction": 0.93,
         "ReloadSpeedMulti": 1.0
     },
     "5b432be65acfc433000ed01f": {
@@ -68,7 +68,7 @@
         "LoyaltyLevel": 3,
         "ArmorClass": "Anti-Shatter Resistance V50 ≥ 350 m/s",
         "CanSpall": false,
-        "SpallReduction": 0.91,
+        "SpallReduction": 0.9,
         "ReloadSpeedMulti": 1.0
     },
     "59e770b986f7742cbd762754": {
@@ -90,7 +90,7 @@
         "LoyaltyLevel": 4,
         "ArmorClass": "MIL-PRF 31013",
         "CanSpall": false,
-        "SpallReduction": 0.9,
+        "SpallReduction": 0.74,
         "ReloadSpeedMulti": 1.0
     },
     "62a61c988ec41a51b34758d5": {
@@ -112,7 +112,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "ANSI/ISEA Z87.1+",
         "CanSpall": false,
-        "SpallReduction": 0.73,
+        "SpallReduction": 0.97,
         "ReloadSpeedMulti": 1.0
     },
     "5d5fca1ea4b93635fd598c07": {
@@ -123,7 +123,7 @@
         "LoyaltyLevel": 3,
         "ArmorClass": "ANSI Z87.1-2015",
         "CanSpall": false,
-        "SpallReduction": 0.98,
+        "SpallReduction": 0.95,
         "ReloadSpeedMulti": 1.0
     }
 }

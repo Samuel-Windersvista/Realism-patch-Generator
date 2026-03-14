@@ -4,7 +4,7 @@
         "ItemID": "41e97223a2ad6374a096ae14",
         "Name": "Eotech EXPS3 /w Unity FTC (FDE)",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 3,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -20,7 +20,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": -2,
+        "Ergonomics": 0,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -48,7 +48,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -60,7 +60,7 @@
         "ItemID": "8d9e9ff3020f92eb5fc46680",
         "Name": "Leupold LCO /w Unity FTC (Black)",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 3,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -88,7 +88,7 @@
         "ItemID": "2e31bdb165e6f6f7ac19b0d8",
         "Name": "Leupold LCO /w G33",
         "ModType": "sight",
-        "AimSpeed": 3,
+        "AimSpeed": 4,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -104,7 +104,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -137,14 +137,14 @@
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 4,
-        "AimStability": 1
+        "AimStability": 0
     },
     "22345a1c542354f86796efda": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "22345a1c542354f86796efda",
         "Name": "Vortex UH-1 /w G33",
         "ModType": "sight",
-        "AimSpeed": 4,
+        "AimSpeed": 5,
         "Accuracy": 15,
         "ConflictingItems": [
             "55d5f46a4bdc2d1b198b4567",
@@ -160,7 +160,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": -1,
+        "Ergonomics": -2,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
@@ -216,7 +216,7 @@
             "61817865d3a39d50044c13a4",
             "275def25d1abe9b101511271"
         ],
-        "Ergonomics": 1,
+        "Ergonomics": -1,
         "Weight": 0.544,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,

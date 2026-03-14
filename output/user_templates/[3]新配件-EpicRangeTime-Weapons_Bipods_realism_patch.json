@@ -12,7 +12,7 @@
         "AimSpeed": 0,
         "ReloadSpeed": 0,
         "Ergonomics": -2,
-        "Accuracy": 2,
+        "Accuracy": 1,
         "ConflictingItems": [],
         "FixSpeed": 0,
         "Weight": 0.277,
@@ -38,8 +38,8 @@
         "FixSpeed": 0,
         "Weight": 0.277,
         "LoyaltyLevel": 2,
-        "AimStability": 2,
-        "Handling": -4
+        "AimStability": 1,
+        "Handling": -5
     },
     "923987338260a1bb89e6a11b": {
         "$type": "RealismMod.WeaponMod, RealismMod",
@@ -47,13 +47,13 @@
         "Name": "Magpul M-LOK 2.5英寸导轨(仅限二脚架)",
         "ModType": "",
         "Ergonomics": -2,
-        "Accuracy": 2,
+        "Accuracy": 1,
         "ConflictingItems": [],
         "Weight": 0.05,
         "LoyaltyLevel": 3,
-        "VerticalRecoil": 0,
-        "HorizontalRecoil": -1,
-        "AimStability": 1,
-        "Handling": -4
+        "VerticalRecoil": -2,
+        "HorizontalRecoil": 0,
+        "AimStability": 3,
+        "Handling": -3
     }
 }

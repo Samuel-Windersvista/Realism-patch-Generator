@@ -2279,7 +2279,7 @@
     "5b7be4895acfc400170e2dd5": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "5b7be4895acfc400170e2dd5",
-        "Name": "mount_m_lok_magpul_4,1_inch_picatinny_rail_section",
+        "Name": "mount_m_lok_magpul_4.1_inch_picatinny_rail_section",
         "ModType": "foregrip_adapter",
         "Ergonomics": -2,
         "Accuracy": 0,
@@ -2290,7 +2290,7 @@
     "5b4736b986f77405cb415c10": {
         "$type": "RealismMod.WeaponMod, RealismMod",
         "ItemID": "5b4736b986f77405cb415c10",
-        "Name": "mount_qars_troy_qars_4,2_inch_rail_section",
+        "Name": "mount_qars_troy_qars_4.2_inch_rail_section",
         "ModType": "foregrip_adapter",
         "Ergonomics": -2,
         "Accuracy": 0,

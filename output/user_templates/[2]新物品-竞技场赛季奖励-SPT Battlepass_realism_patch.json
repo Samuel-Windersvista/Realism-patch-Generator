@@ -7,7 +7,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.84,
+        "SpallReduction": 0.94,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -20,7 +20,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.77,
+        "SpallReduction": 0.81,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -33,7 +33,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.93,
+        "SpallReduction": 0.95,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -59,7 +59,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.93,
+        "SpallReduction": 0.96,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -72,7 +72,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.89,
+        "SpallReduction": 0.85,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -85,7 +85,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.93,
+        "SpallReduction": 0.86,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic"
@@ -190,9 +190,9 @@
         "ArmorClass": "",
         "CanSpall": false,
         "SpallReduction": 1.0,
-        "ReloadSpeedMulti": 0.98,
-        "Comfort": 0.8,
-        "speedPenaltyPercent": -0.64,
+        "ReloadSpeedMulti": 1.03,
+        "Comfort": 0.84,
+        "speedPenaltyPercent": -0.39,
         "mousePenalty": 0,
         "weaponErgonomicPenalty": 0
     },

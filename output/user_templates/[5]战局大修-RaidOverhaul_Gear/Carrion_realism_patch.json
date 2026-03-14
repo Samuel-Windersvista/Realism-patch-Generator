@@ -7,12 +7,12 @@
         "LoyaltyLevel": 5,
         "ArmorClass": "GOST 6A",
         "CanSpall": false,
-        "SpallReduction": 0.7,
-        "ReloadSpeedMulti": 0.99,
-        "Comfort": 1.08,
-        "speedPenaltyPercent": -3.59,
+        "SpallReduction": 0.77,
+        "ReloadSpeedMulti": 1.0,
+        "Comfort": 1.1,
+        "speedPenaltyPercent": -4.58,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -4.2,
+        "weaponErgonomicPenalty": -4.46,
         "TemplateType": "gear",
         "Price": 30000
     }

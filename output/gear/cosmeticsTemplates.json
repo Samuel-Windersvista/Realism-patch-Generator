@@ -535,12 +535,12 @@
         "LoyaltyLevel": 4,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
-        "speedPenaltyPercent": -3.11,
+        "speedPenaltyPercent": -4.4,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -20.2,
+        "weaponErgonomicPenalty": -6.41,
         "IsGasMask": true,
-        "GasProtection": 0.86,
-        "RadProtection": 0.78
+        "GasProtection": 0.84,
+        "RadProtection": 0.75
     },
     "5b432b6c5acfc4001a599bf0": {
         "$type": "RealismMod.Gear, RealismMod",
@@ -610,12 +610,12 @@
         "LoyaltyLevel": 1,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
-        "speedPenaltyPercent": -3.26,
+        "speedPenaltyPercent": -3.4,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -3.15,
+        "weaponErgonomicPenalty": -11.57,
         "IsGasMask": true,
-        "GasProtection": 0.87,
-        "RadProtection": 0.75
+        "GasProtection": 0.85,
+        "RadProtection": 0.76
     },
     "67a13809c3bc1e2fa47e6eec": {
         "$type": "RealismMod.Gear, RealismMod",
@@ -625,12 +625,12 @@
         "LoyaltyLevel": 4,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
-        "speedPenaltyPercent": -3.01,
+        "speedPenaltyPercent": -5.8,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -1.86,
+        "weaponErgonomicPenalty": -0.73,
         "IsGasMask": true,
-        "GasProtection": 0.89,
-        "RadProtection": 0.81,
+        "GasProtection": 0.85,
+        "RadProtection": 0.77,
         "MaskToUse": "tgc"
     },
     "60363c0c92ec1c31037959f5": {
@@ -641,12 +641,12 @@
         "LoyaltyLevel": 4,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
-        "speedPenaltyPercent": -5.59,
+        "speedPenaltyPercent": -7.05,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -13.31,
+        "weaponErgonomicPenalty": -10.48,
         "IsGasMask": true,
-        "GasProtection": 0.84,
-        "RadProtection": 0.78,
+        "GasProtection": 0.85,
+        "RadProtection": 0.79,
         "MaskToUse": "gp5"
     },
     "5b432c305acfc40019478128": {
@@ -657,11 +657,11 @@
         "LoyaltyLevel": 3,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
-        "speedPenaltyPercent": -6.21,
+        "speedPenaltyPercent": -2.27,
         "mousePenalty": 0,
-        "weaponErgonomicPenalty": -9.77,
+        "weaponErgonomicPenalty": -22.17,
         "IsGasMask": true,
-        "GasProtection": 0.86,
+        "GasProtection": 0.82,
         "RadProtection": 0.8,
         "MaskToUse": "gp5"
     },

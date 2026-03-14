@@ -1342,6 +1342,8 @@ class RealismPatchGenerator:
             mag_capacity = self._extract_mag_capacity(item_info, name)
             return self._infer_magazine_profile(mag_capacity, name)
 
+        if mod_type == "foregrip_adapter":
+            return "mount"
         if mod_type in ["grip", "foregrip"] or "foregrip" in mod_type or "verticalgrip" in mod_type or "handstop" in mod_type:
             return "foregrip"
         if mod_type in ["bipod"]:

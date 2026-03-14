@@ -9,12 +9,12 @@
         "BaseTorque": 0,
         "HasShoulderContact": true,
         "Ergonomics": 68,
-        "VerticalRecoil": 211,
-        "HorizontalRecoil": 360,
-        "Dispersion": 17,
-        "CameraRecoil": -0.012,
-        "VisualMulti": 2.33,
-        "Convergence": 10,
+        "VerticalRecoil": 332,
+        "HorizontalRecoil": 405,
+        "Dispersion": 14,
+        "CameraRecoil": -0.013,
+        "VisualMulti": 2.07,
+        "Convergence": 9,
         "RecoilAngle": 90,
         "BaseMalfunctionChance": 0,
         "HeatFactorGun": 1,
@@ -36,7 +36,7 @@
         "AutoROF": 425,
         "SemiROF": 425,
         "LoyaltyLevel": 4,
-        "BaseReloadSpeedMulti": 0.99,
+        "BaseReloadSpeedMulti": 1.02,
         "BaseChamberSpeedMulti": 1,
         "MinChamberSpeed": 0.7,
         "MaxChamberSpeed": 1.5,
@@ -44,6 +44,6 @@
         "BaseChamberCheckSpeed": 1,
         "BaseFixSpeed": 1,
         "OffsetRotation": 0.015,
-        "RecoilIntensity": 0.42
+        "RecoilIntensity": 0.35
     }
 }

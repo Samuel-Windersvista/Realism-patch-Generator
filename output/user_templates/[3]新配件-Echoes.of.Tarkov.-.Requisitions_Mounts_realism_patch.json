@@ -36,7 +36,7 @@
         "ItemID": "6845a2443b726a816a6ca79e",
         "Name": "CN Armament DUAL45 Backup mount",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "6837716de936d83c13099eea",
@@ -76,7 +76,7 @@
         "ItemID": "6845a394ddfdb4cac936974e",
         "Name": "CN Armament DUAL45 Backup mount (Anthracite)",
         "ModType": "mount",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "6837716de936d83c13099eea",
@@ -96,7 +96,7 @@
         "ItemID": "6845a930e3dfd938256267a2",
         "Name": "CN Armament DUAL45 Backup mount (Olive Drab)",
         "ModType": "mount",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "6837716de936d83c13099eea",
@@ -137,11 +137,11 @@
         "ConflictingItems": [
             "686a5a6247c881f613196f91"
         ],
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Weight": 0.113,
         "VerticalRecoil": 0,
         "HorizontalRecoil": 0,
         "LoyaltyLevel": 1,
-        "AimStability": 2
+        "AimStability": 1
     }
 }

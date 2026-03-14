@@ -143,7 +143,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.85,
+        "SpallReduction": 0.93,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic",
@@ -158,7 +158,7 @@
         "LoyaltyLevel": 2,
         "ArmorClass": "NIJ IIIA",
         "CanSpall": false,
-        "SpallReduction": 0.95,
+        "SpallReduction": 0.93,
         "ReloadSpeedMulti": 1.0,
         "BlocksMouth": true,
         "MaskToUse": "atomic",
@@ -179,7 +179,7 @@
         "ConflictingItems": [],
         "Weight": 0.1,
         "SpallReduction": 1.0,
-        "Comfort": 0.89
+        "Comfort": 0.93
     },
     "668bc5cd834c88e06b08b6a8": {
         "$type": "RealismMod.Gear, RealismMod",
@@ -321,7 +321,7 @@
         "mousePenalty": 0,
         "weaponErgonomicPenalty": 0,
         "SpallReduction": 1.0,
-        "Comfort": 0.99
+        "Comfort": 0.94
     },
     "669819683571cb050b0b6392": {
         "$type": "RealismMod.Gear, RealismMod",
@@ -335,7 +335,7 @@
         "mousePenalty": 0,
         "weaponErgonomicPenalty": 0,
         "SpallReduction": 1.0,
-        "Comfort": 0.91
+        "Comfort": 0.92
     },
     "6673b1ac5cae0610f1079d73": {
         "$type": "RealismMod.Gear, RealismMod",

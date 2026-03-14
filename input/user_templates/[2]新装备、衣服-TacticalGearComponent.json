@@ -4564,10 +4564,10 @@
     },
     "locales": {
       "en": {
-        "Name": "AR-15 M16 M203 隔热护木",
-"ShortName": "M203",
-"Description": "适用于配备 M203 榴弹发射器的 M16A4 和 M4A1 步枪的隔热护木。"
-      }
+    "Name": "TGC M-LOK 2.8英寸导轨",
+    "ShortName": "MLOK 2.8英寸",
+    "Description": "由Painter生产的低调M-LOK 2.8英寸导轨，允许在配备M-LOK接口的护木上安装附加设备。"
+            }
     },
     "addToThisItemsFilters": {
       "mod_foregrip": [

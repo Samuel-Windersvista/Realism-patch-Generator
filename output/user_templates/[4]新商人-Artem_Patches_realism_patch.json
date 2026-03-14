@@ -4,7 +4,7 @@
         "ItemID": "66bf757f27d0b097db0ace3d",
         "Name": "Tron Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -94,7 +94,7 @@
         "ItemID": "66bf757f27d0b097db0ace42",
         "Name": "BEAR Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -238,7 +238,7 @@
         "ItemID": "676ad644ed32115c8b46342d",
         "Name": "Scotland Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -256,7 +256,7 @@
         "ItemID": "676ad83f4488c50df0ebb8ff",
         "Name": "Germany Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -346,7 +346,7 @@
         "ItemID": "66bf757f27d0b097db0ace53",
         "Name": "Canada Patch",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -364,7 +364,7 @@
         "ItemID": "66bf757f27d0b097db0ace54",
         "Name": "Poland Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -382,7 +382,7 @@
         "ItemID": "66bf757f27d0b097db0ace4d",
         "Name": "Solaire Circular Patch",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -454,7 +454,7 @@
         "ItemID": "66bf757f27d0b097db0ace64",
         "Name": "Hidden Leaf Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -490,7 +490,7 @@
         "ItemID": "676ac6e0769e44deb14a028a",
         "Name": "Patch",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -598,7 +598,7 @@
         "ItemID": "6771bd1c7cac7844d18b8aaa",
         "Name": "Ferro Concepts Battery Pack (Ranger Green)",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": -1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -616,7 +616,7 @@
         "ItemID": "6771bdde30136eb8171a4b36",
         "Name": "Ferro Concepts Battery Pack (Black)",
         "ModType": "",
-        "Ergonomics": 1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -634,7 +634,7 @@
         "ItemID": "67741256f0101c0e0ff4eada",
         "Name": "Ferro Concepts Battery Pack (Alpine)",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -652,7 +652,7 @@
         "ItemID": "674e0b363c4bc8bb29fe0984",
         "Name": "Helmet Cover Black",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -670,7 +670,7 @@
         "ItemID": "674f592b98bc2083d3006264",
         "Name": "Helmet Cover Alpine",
         "ModType": "",
-        "Ergonomics": -1,
+        "Ergonomics": 0,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
@@ -724,7 +724,7 @@
         "ItemID": "674f690a7abfbaac80fa2587",
         "Name": "Helmet Cover Multicam Black",
         "ModType": "",
-        "Ergonomics": 0,
+        "Ergonomics": 1,
         "Accuracy": 0,
         "ConflictingItems": [
             "5a16b7e1fcdbcb00165aa6c9"
