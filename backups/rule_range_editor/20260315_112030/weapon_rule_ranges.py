@@ -17,7 +17,7 @@ WEAPON_PROFILE_RANGES = {
     },
     "pistol": {
         "VerticalRecoil": (325, 525),
-        "HorizontalRecoil": (250, 380),
+        "HorizontalRecoil": (280, 480),
         "Convergence": (12, 18),
         "Dispersion": (10, 18),
         "VisualMulti": (2.0, 2.6),
