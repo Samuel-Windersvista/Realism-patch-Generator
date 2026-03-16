@@ -1,0 +1,149 @@
+{
+    "group": "无规则类别",
+    "count": 10,
+    "category_count": 2,
+    "categories": [
+        {
+            "category": "unsupported_auxiliary_mod",
+            "count": 8,
+            "items": [
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "56083eab4bdc2d26448b456a",
+                    "name": "tactical_sv-98_izhmash_heat_ribbon",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "5a71e1868dc32e00094b97f3",
+                    "name": "tactical_glock_zev_tech_rmr_adapter_plate",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "5bfe86bd0db83400232fe959",
+                    "name": "tactical_870_fab_defence_agr_870_cap",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "5c4eecde2e221602b3140418",
+                    "name": "tactical_sv98_izhmash_silencer_heat_shield_std",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "602f85fd9b513876d4338d9c",
+                    "name": "tactical_stm9_stmarms_magwell",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "60338ff388382f4fab3fd2c8",
+                    "name": "tactical_stm9_stmarms_magwell_gry",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "60785c0d232e5a31c233d51c",
+                    "name": "tactical_mp155_kalshnikov_ultima_pistol_grip_rubberpad",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/AuxiliaryModTemplates.json",
+                    "source_file": "attatchments/AuxiliaryModTemplates.json",
+                    "item_id": "622f16a1a5958f63c67f1737",
+                    "name": "tactical_g36_hk_complete_hand_stop",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于辅助小件类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/AuxiliaryModTemplates.json",
+                        "mod_profile": null,
+                        "template_file": "AuxiliaryModTemplates.json"
+                    }
+                }
+            ]
+        },
+        {
+            "category": "unsupported_ubgl",
+            "count": 2,
+            "items": [
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/UBGLTempaltes.json",
+                    "source_file": "attatchments/UBGLTempaltes.json",
+                    "item_id": "62e7e7bbe6da9612f743f1e0",
+                    "name": "launcher_ak_toz_gp25_40_vog",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于下挂榴弹发射器类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/UBGLTempaltes.json",
+                        "mod_profile": null,
+                        "template_file": "UBGLTempaltes.json"
+                    }
+                },
+                {
+                    "file": "Realism-patch-Generator-Csharp/output/attatchments/UBGLTempaltes.json",
+                    "source_file": "attatchments/UBGLTempaltes.json",
+                    "item_id": "6357c98711fb55120211f7e1",
+                    "name": "launcher_ar15_colt_m203_40x46",
+                    "type": "RealismMod.WeaponMod, RealismMod",
+                    "message": "当前物品属于下挂榴弹发射器类，尚未配置附件规则范围",
+                    "context": {
+                        "source_file": "attatchments/UBGLTempaltes.json",
+                        "mod_profile": null,
+                        "template_file": "UBGLTempaltes.json"
+                    }
+                }
+            ]
+        }
+    ]
+}

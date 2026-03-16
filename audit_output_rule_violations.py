@@ -477,7 +477,6 @@ class OutputRuleAuditor:
             return make_warning_detail("信息不足", "mod_id_like_name", "名称疑似物品ID，无法推断附件规则档位")
 
         unsupported_templates = {
-            "ChargingHandleTemplates.json": ("无规则类别", "unsupported_charging_handle", "当前物品属于拉机柄类，尚未配置附件规则范围"),
             "AuxiliaryModTemplates.json": ("无规则类别", "unsupported_auxiliary_mod", "当前物品属于辅助小件类，尚未配置附件规则范围"),
             "UBGLTempaltes.json": ("无规则类别", "unsupported_ubgl", "当前物品属于下挂榴弹发射器类，尚未配置附件规则范围"),
         }
@@ -489,14 +488,6 @@ class OutputRuleAuditor:
             return make_warning_detail("无规则类别", "unsupported_cosmetic_patch", "当前物品更像装饰类部件，尚未配置附件规则范围")
 
         unsupported_name_patterns = {
-            "charging handle": ("无规则类别", "unsupported_charging_handle", "当前物品属于拉机柄类，尚未配置附件规则范围"),
-            "拉机柄": ("无规则类别", "unsupported_charging_handle", "当前物品属于拉机柄类，尚未配置附件规则范围"),
-            "рукоятка взведения": ("无规则类别", "unsupported_charging_handle", "当前物品属于拉机柄类，尚未配置附件规则范围"),
-            "bipod": ("无规则类别", "unsupported_bipod", "当前物品属于二脚架类，尚未配置附件规则范围"),
-            "二脚架": ("无规则类别", "unsupported_bipod", "当前物品属于二脚架类，尚未配置附件规则范围"),
-            "trigger": ("无规则类别", "unsupported_trigger_group", "当前物品属于扳机/击发组件类，尚未配置附件规则范围"),
-            "hammer": ("无规则类别", "unsupported_trigger_group", "当前物品属于扳机/击发组件类，尚未配置附件规则范围"),
-            "slide stop": ("无规则类别", "unsupported_pistol_internal", "当前物品属于手枪机件类，尚未配置附件规则范围"),
             "lens cap": ("无规则类别", "unsupported_optic_accessory", "当前物品属于瞄具附件小件类，尚未配置附件规则范围"),
         }
         lowered_name = item_name.lower()

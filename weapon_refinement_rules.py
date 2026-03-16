@@ -73,9 +73,9 @@ WEAPON_CALIBER_RULE_MODIFIERS = {
     },
     # 12/20 Gauge
     "shotgun_shell": {
-        "VerticalRecoil": (30, 120),
-        "HorizontalRecoil": (20, 85),
-        "ShotgunDispersion": (0, 1),
+        "VerticalRecoil": (50, 120),
+        "HorizontalRecoil": (22, 85),
+        "ShotgunDispersion": (1, 3),
         "Convergence": (-2, 2),
         "RecoilIntensity": (0.06, 0.16),
     },
