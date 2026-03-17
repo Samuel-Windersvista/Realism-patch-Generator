@@ -8,6 +8,26 @@
 
 ## [Unreleased]
 
+## [v3.55] - 2026-03-17
+
+### 变更
+- ammo_rule_ranges.py 中的霰弹基础档位已从单一 shotgun_shell 拆分为 shotgun_12g、shotgun_20g、shotgun_23x75 三档，并保留 shotgun_shell 兼容兜底档。
+- AMMO_PROFILE_KEYWORDS 已按 23x75 -> 20g -> 12g 的顺序细化霰弹口径识别，降低宽泛关键词提前命中的概率。
+- generate_realism_patch.py 的弹药 profile 推断新增霰弹载荷兜底逻辑；当名称只包含 buckshot、flechette、slug、shrapnel 等载荷语义时，会回退到 shotgun_shell，而不是 intermediate_rifle。
+- 弹药最终区间应用新增 PenetrationPower 的 1 到 130 硬限制，避免低穿霰弹在多层增量叠加后出现 0 或负穿深。
+
+### 测试
+- 新增 tests/test_ammo_rules.py，覆盖 12x70、20x70、23x75 三类霰弹 profile 识别、未知霰弹载荷兜底，以及低穿 23x75 不低于 1 穿深的回归测试。
+
+### 验证
+- tests.test_ammo_rules 当前为 6 条用例，全部通过。
+- 全量生成后的输出审计保持 174 个文件、2191 个物品、0 违规、0 警告。
+
+### 文档
+- 更新 README.md 当前版本与本轮重点说明。
+- 更新 现实主义数值生成器快速入门.md、现实主义数值生成器详细使用说明.md、现实主义数值生成器高级配置指南.md 的版本号。
+- 更新 弹药属性规则指南.md，补充霰弹口径细分和 PenetrationPower 硬限制说明。
+
 ## [v3.5] - 2026-03-14
 
 ### 新增

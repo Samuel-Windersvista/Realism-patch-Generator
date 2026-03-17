@@ -1,6 +1,6 @@
 # EFT 现实主义数值生成器
 
-面向 SPT Realism 物品补丁的批量数值生成工具。当前版本为 v3.5，主流程以 generate_realism_patch.py 为核心，支持多输入格式识别、模板重建、武器/附件/弹药/装备规则重算、按源文件导出，以及生成后审计。
+面向 SPT Realism 物品补丁的批量数值生成工具。当前版本为 v3.55，主流程以 generate_realism_patch.py 为核心，支持多输入格式识别、模板重建、武器/附件/弹药/装备规则重算、按源文件导出，以及生成后审计。
 
 ## 项目定位
 
@@ -11,10 +11,10 @@
 
 ## 当前版本重点
 
-- gear_rule_ranges.py 已形成完整的装备规则层，装备不再只做全局 clamp，而是按 gear_profile 应用独立区间。
-- 装备规则已细化到 armor_vest、armor_chest_rig、chest_rig、helmet、armor_component、armor_mask、armor_plate、backpack、belt_harness、back_panel、protective_eyewear 等二级档位。
-- tests/test_gear_rules.py 当前覆盖 38 条 gear 回归用例，包含识别分流与关键区间应用。
-- 审计脚本 audit_output_rule_violations.py 已接入 gear 规则校验；当前全量审计结果保持 0 违规、0 警告。
+- 弹药霰弹基础档位已细分为 shotgun_12g、shotgun_20g、shotgun_23x75，并保留 shotgun_shell 作为未知口径霰弹的兼容兜底档。
+- 弹药 profile 推断新增霰弹载荷兜底逻辑，名称只带 buckshot、flechette、slug、shrapnel 等语义时不再误落入步枪默认档。
+- 弹药最终区间应用已为 PenetrationPower 增加 1 到 130 的硬限制，避免低穿霰弹在增量叠加后出现 0 或负数。
+- tests/test_ammo_rules.py 当前覆盖 6 条弹药回归用例；本轮全量生成后的输出审计保持 0 违规、0 警告。
 
 ## 目录结构
 
@@ -226,12 +226,12 @@ GUI 当前支持直接编辑以下规则源中的二元范围值：
 
 ## 版本记录
 
-当前版本：v3.5
+当前版本：v3.55
 
 本轮更新重点：
 
-- 装备规则体系已扩展到护甲主体、头部面部、承载系统、轻量饰品与插板的二级细分
-- gear 回归测试已扩展到 38 条，覆盖头盔、胸挂、背包、护目镜、面甲、插板等核心分流与区间
-- 当前生成结果已通过全量审计，输出规则范围内保持 0 违规、0 警告
+- 霰弹规则已拆分为 12g、20g、23x75 三档，原 shotgun_shell 仅保留为兼容兜底
+- 未显式写出霰弹口径的载荷型弹药现在会落入 shotgun_shell，而不会回退到步枪默认档
+- 弹药穿深结果已统一硬限制到 1 到 130，本轮弹药回归测试与全量审计均已通过
 
 完整历史请查看 CHANGELOG.md。

@@ -813,6 +813,19 @@ class RealismPatchGenerator:
             if any(keyword in caliber_text for keyword in keywords):
                 return profile
 
+        variant_text = self._extract_ammo_variant_text(patch, item_info)
+        shotgun_payload_tokens = {
+            "buckshot",
+            "flechette",
+            "slug",
+            "shrapnel",
+            "piranha",
+            "barricade",
+        }
+        variant_tokens = set(re.findall(r"[a-z0-9]+", variant_text))
+        if shotgun_payload_tokens.intersection(variant_tokens):
+            return "shotgun_shell"
+
         # 未匹配到关键词时，使用中间威力步枪弹作为默认档位。
         return "intermediate_rifle"
 
@@ -935,6 +948,13 @@ class RealismPatchGenerator:
             if key in malfunction_keys:
                 min_v = self._clamp(min_v, 0.001, 0.015)
                 max_v = self._clamp(max_v, 0.001, 0.015)
+                if min_v > max_v:
+                    min_v, max_v = max_v, min_v
+
+            # 穿深统一限制在 1~130，避免低穿霰弹被增量修正拉成 0 或负数。
+            if key == "PenetrationPower":
+                min_v = self._clamp(min_v, 1.0, 130.0)
+                max_v = self._clamp(max_v, 1.0, 130.0)
                 if min_v > max_v:
                     min_v, max_v = max_v, min_v
 
